@@ -37,6 +37,7 @@ with down_doc:
             mime="application/pdf",
             type="primary",
         )
+st.divider()
 '''
 with down_data:
     with open(DATA_ARCHIVE_PATH, "rb") as data_file:
@@ -48,4 +49,3 @@ with down_data:
         )
 '''
 
-st.divider()
