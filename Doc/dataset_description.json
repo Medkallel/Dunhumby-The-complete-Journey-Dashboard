@@ -1,0 +1,279 @@
+{
+    "datasets": {
+        "HH_DEMOGRAPHIC": {
+            "description": "801 households. This table contains demographic information for a portion of households. Due to the nature of the data, the demographic information is not available for all households.",
+            "columns": [
+                {
+                    "name": "household_key",
+                    "description": "Unique identifier for each household",
+                    "type": "int"
+                },
+                {
+                    "name": "age",
+                    "description": "Age range of the shopper",
+                    "type": "str"
+                },
+                {
+                    "name": "marital_status_code",
+                    "description": "Marital status (A - Married, B - Single, U - Unknown)",
+                    "type": "str"
+                },
+                {
+                    "name": "income_desc",
+                    "description": "Income range of the household",
+                    "type": "str"
+                },
+                {
+                    "name": "homeowner_desc",
+                    "description": "Homeowner, renter, etc.",
+                    "type": "str"
+                },
+                {
+                    "name": "hh_comp_desc",
+                    "description": "Household composition description",
+                    "type": "str"
+                },
+                {
+                    "name": "household_size_desc",
+                    "description": "Size of household up to 5+",
+                    "type": "str"
+                },
+                {
+                    "name": "kid_category_desc",
+                    "description": "Number of children in the household up to 3+",
+                    "type": "str"
+                }
+            ]
+        },
+        "TRANSACTION_DATA": {
+            "description": "2500 households shopped 92339 products. This table contains all products purchased by households within this study. Each line found in this table is essentially the same line that would be found on a store receipt.",
+            "columns": [
+                {
+                    "name": "household_key",
+                    "description": "Unique identifier for each household",
+                    "type": "int"
+                },
+                {
+                    "name": "basket_id",
+                    "description": "Unique identifier for each basket/purchase occasion",
+                    "type": "int"
+                },
+                {
+                    "name": "day",
+                    "description": "The day the transaction occurred",
+                    "type": "int"
+                },
+                {
+                    "name": "product_id",
+                    "description": "Unique identifier for each product",
+                    "type": "int"
+                },
+                {
+                    "name": "quantity",
+                    "description": "Quantity of the product purchased",
+                    "type": "int"
+                },
+                {
+                    "name": "sales_value",
+                    "description": "The amount of dollars received by the retailer on the sale of the specific product, taking the coupon match and loyalty card discount into account. It is not the actual price paid by the customer.",
+                    "type": "float"
+                },
+                {
+                    "name": "store_id",
+                    "description": "Unique identifier for each store",
+                    "type": "int"
+                },
+                {
+                    "name": "coupon_disc",
+                    "description": "Discount amount from the coupon from the manufacturer",
+                    "type": "float"
+                },
+                {
+                    "name": "retail_disc",
+                    "description": "Retail discount amount from the loyalty program",
+                    "type": "float"
+                },
+                {
+                    "name": "coupon_match_disc",
+                    "description": "Coupon match discount amount from the retailer",
+                    "type": "float"
+                },
+                {
+                    "name": "trans_time",
+                    "description": "Time of the day when transaction occured",
+                    "type": "int"
+                },
+                {
+                    "name": "week_no",
+                    "description": "Week number",
+                    "type": "int"
+                }
+            ]
+        },
+        "CAMPAIGN_TABLE": {
+            "description": "1584 households mailed 30 campaigns. This table lists the campaigns received by each household in the study. Each household received a different set of campaigns.",
+            "columns": [
+                {
+                    "name": "household_key",
+                    "description": "Unique identifier for each household",
+                    "type": "int"
+                },
+                {
+                    "name": "campaign",
+                    "description": "Unique identifier for each campaign",
+                    "type": "int"
+                },
+                {
+                    "name": "description",
+                    "description": "Description of the campaign Type (A - B - C)",
+                    "type": "str"
+                }
+            ]
+        },
+        "COUPON_REDEMPT": {
+            "description": "434 households redeemed 556 coupons from 30 campaigns. This table identifies the coupons that each household redeemed.",
+            "columns": [
+                {
+                    "name": "household_key",
+                    "description": "Unique identifier for each household",
+                    "type": "int"
+                },
+                {
+                    "name": "coupon_upc",
+                    "description": "Unique identifier for each coupon",
+                    "type": "int"
+                },
+                {
+                    "name": "day",
+                    "description": "The day the coupon was redeemed",
+                    "type": "int"
+                },
+                {
+                    "name": "basket_id",
+                    "description": "Unique identifier for each basket or transaction",
+                    "type": "int"
+                },
+                {
+                    "name": "campaign",
+                    "description": "Unique identifier for each campaign",
+                    "type": "int"
+                }
+            ]
+        },
+        "PRODUCT": {
+            "description": "92339 products. This table contains information on each product sold such as type of product, national or private label, and a brand identifier.",
+            "columns": [
+                {
+                    "name": "product_id",
+                    "description": "Unique identifier for each product",
+                    "type": "int"
+                },
+                {
+                    "name": "manufacturer",
+                    "description": "Manufacturer of the product",
+                    "type": "int"
+                },
+                {
+                    "name": "department",
+                    "description": "Department under which the product is categorized",
+                    "type": "str"
+                },
+                {
+                    "name": "brand",
+                    "description": "Brand of the product",
+                    "type": "str"
+                },
+                {
+                    "name": "commodity",
+                    "description": "Commodity type of the product",
+                    "type": "str"
+                },
+                {
+                    "name": "sub_commodity_desc",
+                    "description": "Sub-commodity type of the product",
+                    "type": "str"
+                },
+                {
+                    "name": "curr_size_of_product",
+                    "description": "Size of the product",
+                    "type": "str"
+                }
+            ]
+        },
+        "COUPON": {
+            "description": "1135 coupons promoted 44133 products in the 30 campaigns. This table lists all the coupons sent to customers as part of a campaign, as well as the products for which each coupon is redeemable.",
+            "columns": [
+                {
+                    "name": "coupon_upc",
+                    "description": "Unique identifier for each coupon",
+                    "type": "int"
+                },
+                {
+                    "name": "product_id",
+                    "description": "Unique identifier for each product",
+                    "type": "int"
+                },
+                {
+                    "name": "campaign",
+                    "description": "Unique identifier for each campaign",
+                    "type": "int"
+                }
+            ]
+        },
+        "CAUSAL_DATA": {
+            "description": "68377 products. This table signifies whether a given product was featured in the weekly mailer or was part of an in-store display (other than regular product placement).",
+            "columns": [
+                {
+                    "name": "product_id",
+                    "description": "Unique identifier for each product",
+                    "type": "int"
+                },
+                {
+                    "name": "store_id",
+                    "description": "Unique identifier for each store",
+                    "type": "int"
+                },
+                {
+                    "name": "week_no",
+                    "description": "Week number",
+                    "type": "int"
+                },
+                {
+                    "name": "display",
+                    "description": "Whether the product was part of an in-store display",
+                    "type": "str"
+                },
+                {
+                    "name": "mailer",
+                    "description": "Whether the product was featured in the weekly mailer",
+                    "type": "str"
+                }
+            ]
+        },
+        "CAMPAIGN_DESC": {
+            "description": "30 campaigns. This table contains the description of each campaign.",
+            "columns": [
+                {
+                    "name": "campaign",
+                    "description": "Unique identifier for each campaign",
+                    "type": "str"
+                },
+                {
+                    "name": "description",
+                    "description": "Description of the campaign type",
+                    "type": "int"
+                },
+                {
+                    "name": "start_day",
+                    "description": "Start day of the campaign",
+                    "type": "int"
+                },
+                {
+                    "name": "end_day",
+                    "description": "End day of the campaign",
+                    "type": "int"
+                }
+            ]
+        }
+    }
+}

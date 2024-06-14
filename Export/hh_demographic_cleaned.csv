@@ -1,0 +1,802 @@
+AGE_DESC,MARITAL_STATUS_CODE,INCOME_DESC,HOMEOWNER_DESC,HH_COMP_DESC,HOUSEHOLD_SIZE_DESC,KID_CATEGORY_DESC,household_key,INCOME_DESC_REDUCED,AGE_DESC_REDUCED,MEAN_AGE,MEAN_INCOME
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,1,25-49K,55-65+,65.0,42.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,7,50-99K,35-54,49.5,62.0
+25-34,A,25-34K,Homeowner,2 Adults Kids,3,1,8,25-49K,19-34,29.5,29.5
+25-34,A,75-99K,Homeowner,2 Adults Kids,4,2,13,50-99K,19-34,29.5,87.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,16,50-99K,35-54,49.5,62.0
+65+,B,Under 15K,Homeowner,2 Adults No Kids,2,0,17,<25K,55-65+,65.0,15.0
+45-54,A,100-124K,Homeowner,2 Adults No Kids,2,0,18,100-149K,35-54,49.5,112.0
+35-44,B,15-24K,Homeowner,1 Adult No Kids,1,0,19,<25K,35-54,39.5,19.5
+25-34,A,75-99K,Renter,2 Adults No Kids,2,0,20,50-99K,19-34,29.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,22,50-99K,35-54,49.5,87.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,25,50-99K,35-54,39.5,62.0
+45-54,A,25-34K,Probable Renter,1 Adult No Kids,1,0,27,25-49K,35-54,49.5,29.5
+35-44,B,35-49K,Homeowner,2 Adults No Kids,2,0,31,25-49K,35-54,39.5,42.0
+35-44,A,125-149K,Homeowner,2 Adults No Kids,2,0,39,100-149K,35-54,39.5,137.0
+45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,0,40,<25K,35-54,49.5,15.0
+65+,A,50-74K,Homeowner,1 Adult No Kids,1,0,42,50-99K,55-65+,65.0,62.0
+35-44,B,15-24K,Homeowner,2 Adults Kids,5,3,43,<25K,35-54,39.5,19.5
+45-54,A,150-174K,Homeowner,2 Adults Kids,5,3,46,150K+,35-54,49.5,162.0
+19-24,A,35-49K,Homeowner,2 Adults No Kids,2,0,48,25-49K,19-34,21.5,42.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,49,25-49K,35-54,39.5,42.0
+45-54,B,50-74K,Homeowner,2 Adults No Kids,2,0,52,50-99K,35-54,49.5,62.0
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,55,25-49K,55-65+,65.0,42.0
+55-64,A,100-124K,Homeowner,2 Adults Kids,4,2,56,100-149K,55-65+,59.5,112.0
+45-54,B,35-49K,Homeowner,2 Adults No Kids,2,0,57,25-49K,35-54,49.5,42.0
+25-34,A,150-174K,Homeowner,2 Adults Kids,4,2,58,150K+,19-34,29.5,162.0
+45-54,A,Under 15K,Homeowner,2 Adults Kids,5,3,67,<25K,35-54,49.5,15.0
+35-44,A,25-34K,Homeowner,1 Adult No Kids,2,0,71,25-49K,35-54,39.5,29.5
+65+,A,15-24K,Homeowner,2 Adults No Kids,2,0,74,<25K,55-65+,65.0,19.5
+35-44,A,100-124K,Homeowner,2 Adults Kids,5,3,77,100-149K,35-54,39.5,112.0
+55-64,A,25-34K,Homeowner,1 Adult No Kids,1,0,78,25-49K,55-65+,59.5,29.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,80,50-99K,35-54,49.5,62.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,85,25-49K,19-34,29.5,42.0
+65+,B,35-49K,Homeowner,1 Adult No Kids,1,0,86,25-49K,55-65+,65.0,42.0
+45-54,A,75-99K,Homeowner,1 Adult No Kids,1,0,97,50-99K,35-54,49.5,87.0
+35-44,B,35-49K,Homeowner,1 Adult Kids,2,1,98,25-49K,35-54,39.5,42.0
+45-54,A,Under 15K,Homeowner,2 Adults Kids,4,2,101,<25K,35-54,49.5,15.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,5,3,104,25-49K,35-54,39.5,42.0
+25-34,B,Under 15K,Homeowner,1 Adult Kids,3,2,105,<25K,19-34,29.5,15.0
+25-34,A,15-24K,Homeowner,1 Adult No Kids,2,0,109,<25K,19-34,29.5,19.5
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,110,25-49K,19-34,29.5,42.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,4,2,113,100-149K,35-54,39.5,137.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,114,25-49K,19-34,29.5,42.0
+65+,B,35-49K,Probable Owner,2 Adults No Kids,2,0,117,25-49K,55-65+,65.0,42.0
+45-54,B,35-49K,Homeowner,1 Adult No Kids,1,0,118,25-49K,35-54,49.5,42.0
+45-54,A,125-149K,Homeowner,1 Adult No Kids,1,0,119,100-149K,35-54,49.5,137.0
+45-54,A,25-34K,Homeowner,2 Adults Kids,3,1,121,25-49K,35-54,49.5,29.5
+45-54,B,35-49K,Homeowner,2 Adults No Kids,2,0,123,25-49K,35-54,49.5,42.0
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,127,25-49K,35-54,49.5,29.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,131,50-99K,35-54,49.5,62.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,2,0,133,<25K,35-54,49.5,15.0
+55-64,A,25-34K,Homeowner,1 Adult No Kids,2,0,134,25-49K,55-65+,59.5,29.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,136,50-99K,35-54,49.5,62.0
+35-44,B,75-99K,Homeowner,1 Adult No Kids,1,0,139,50-99K,35-54,39.5,87.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,149,25-49K,35-54,49.5,42.0
+35-44,B,50-74K,Homeowner,2 Adults Kids,3,1,155,50-99K,35-54,39.5,62.0
+19-24,A,15-24K,Homeowner,2 Adults No Kids,2,0,157,<25K,19-34,21.5,19.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,158,50-99K,35-54,49.5,62.0
+45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,0,159,<25K,35-54,49.5,15.0
+19-24,A,75-99K,Homeowner,2 Adults Kids,3,1,161,50-99K,19-34,21.5,87.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,164,25-49K,35-54,49.5,42.0
+55-64,A,35-49K,Homeowner,2 Adults No Kids,2,0,165,25-49K,55-65+,59.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,3,1,166,50-99K,19-34,29.5,62.0
+25-34,A,100-124K,Homeowner,2 Adults Kids,4,2,170,100-149K,19-34,29.5,112.0
+25-34,A,25-34K,Homeowner,1 Adult Kids,5,3,178,25-49K,19-34,29.5,29.5
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,184,25-49K,35-54,49.5,29.5
+45-54,A,35-49K,Homeowner,1 Adult No Kids,2,0,192,25-49K,35-54,49.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,193,50-99K,35-54,49.5,87.0
+35-44,A,Under 15K,Homeowner,2 Adults Kids,3,1,198,<25K,35-54,39.5,15.0
+45-54,A,15-24K,Homeowner,2 Adults Kids,5,3,201,<25K,35-54,49.5,19.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,208,50-99K,35-54,49.5,62.0
+45-54,A,25-34K,Homeowner,2 Adults Kids,3,1,209,25-49K,35-54,49.5,29.5
+65+,A,35-49K,Homeowner,1 Adult No Kids,2,0,211,25-49K,55-65+,65.0,42.0
+35-44,A,Under 15K,Homeowner,1 Adult No Kids,1,0,212,<25K,35-54,39.5,15.0
+55-64,B,Under 15K,Homeowner,2 Adults No Kids,2,0,214,<25K,55-65+,59.5,15.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,216,50-99K,35-54,39.5,62.0
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,218,<25K,35-54,49.5,19.5
+55-64,A,150-174K,Homeowner,2 Adults No Kids,2,0,219,150K+,55-65+,59.5,162.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,220,25-49K,35-54,49.5,42.0
+65+,B,15-24K,Homeowner,1 Adult No Kids,1,0,221,<25K,55-65+,65.0,19.5
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,222,25-49K,35-54,39.5,42.0
+25-34,A,25-34K,Homeowner,1 Adult No Kids,1,0,230,25-49K,19-34,29.5,29.5
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,232,25-49K,35-54,39.5,42.0
+35-44,A,250K+,Homeowner,2 Adults Kids,5,3,235,150K+,35-54,39.5,250.0
+45-54,B,50-74K,Renter,1 Adult No Kids,1,0,239,50-99K,35-54,49.5,62.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,5,3,242,50-99K,35-54,49.5,87.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,243,50-99K,55-65+,65.0,62.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,4,2,248,100-149K,35-54,39.5,137.0
+35-44,A,Under 15K,Renter,2 Adults Kids,3,1,249,<25K,35-54,39.5,15.0
+45-54,A,75-99K,Homeowner,1 Adult Kids,4,2,250,50-99K,35-54,49.5,87.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,253,<25K,35-54,49.5,15.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,256,50-99K,19-34,29.5,62.0
+25-34,B,25-34K,Homeowner,1 Adult Kids,3,2,257,25-49K,19-34,29.5,29.5
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,263,25-49K,35-54,49.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,264,50-99K,35-54,49.5,87.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,276,25-49K,35-54,39.5,42.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,281,50-99K,35-54,39.5,62.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,282,25-49K,35-54,49.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,283,50-99K,19-34,29.5,62.0
+45-54,B,100-124K,Homeowner,1 Adult No Kids,1,0,289,100-149K,35-54,49.5,112.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,290,25-49K,19-34,29.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,4,2,294,50-99K,19-34,29.5,62.0
+55-64,A,Under 15K,Homeowner,1 Adult No Kids,2,0,300,<25K,55-65+,59.5,15.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,4,2,301,25-49K,35-54,39.5,42.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,302,25-49K,35-54,49.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,304,50-99K,19-34,29.5,62.0
+19-24,A,35-49K,Homeowner,2 Adults Kids,4,2,306,25-49K,19-34,21.5,42.0
+25-34,A,75-99K,Homeowner,1 Adult No Kids,2,0,309,50-99K,19-34,29.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,314,50-99K,35-54,49.5,87.0
+45-54,A,75-99K,Homeowner,1 Adult No Kids,2,0,317,50-99K,35-54,49.5,87.0
+45-54,B,35-49K,Homeowner,1 Adult Kids,4,3,319,25-49K,35-54,49.5,42.0
+45-54,A,100-124K,Homeowner,2 Adults No Kids,2,0,321,100-149K,35-54,49.5,112.0
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,324,50-99K,35-54,49.5,62.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,4,2,325,50-99K,35-54,39.5,87.0
+25-34,A,75-99K,Homeowner,1 Adult No Kids,1,0,329,50-99K,19-34,29.5,87.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,5,3,332,100-149K,35-54,39.5,137.0
+45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,0,334,<25K,35-54,49.5,15.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,346,50-99K,55-65+,65.0,62.0
+45-54,A,50-74K,Homeowner,1 Adult Kids,4,2,350,50-99K,35-54,49.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,351,50-99K,35-54,49.5,62.0
+45-54,A,150-174K,Homeowner,2 Adults No Kids,2,0,353,150K+,35-54,49.5,162.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,5,3,354,25-49K,19-34,29.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,358,50-99K,35-54,39.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,361,50-99K,35-54,49.5,62.0
+65+,A,50-74K,Homeowner,1 Adult No Kids,1,0,362,50-99K,55-65+,65.0,62.0
+55-64,A,50-74K,Homeowner,2 Adults No Kids,2,0,367,50-99K,55-65+,59.5,62.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,370,50-99K,55-65+,65.0,62.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,3,1,371,50-99K,35-54,39.5,87.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,377,50-99K,35-54,49.5,62.0
+55-64,A,50-74K,Homeowner,1 Adult No Kids,2,0,378,50-99K,55-65+,59.5,62.0
+25-34,B,35-49K,Homeowner,1 Adult Kids,2,1,381,25-49K,19-34,29.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,383,50-99K,35-54,49.5,62.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,385,50-99K,19-34,29.5,62.0
+35-44,B,25-34K,Probable Owner,1 Adult No Kids,1,0,386,25-49K,35-54,39.5,29.5
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,387,50-99K,19-34,29.5,62.0
+35-44,A,150-174K,Probable Owner,1 Adult No Kids,1,0,389,150K+,35-54,39.5,162.0
+45-54,B,25-34K,Renter,1 Adult No Kids,1,0,390,25-49K,35-54,49.5,29.5
+65+,B,25-34K,Homeowner,1 Adult No Kids,1,0,391,25-49K,55-65+,65.0,29.5
+35-44,A,250K+,Homeowner,2 Adults Kids,3,1,392,150K+,35-54,39.5,250.0
+35-44,A,25-34K,Homeowner,1 Adult No Kids,1,0,395,25-49K,35-54,39.5,29.5
+35-44,A,150-174K,Homeowner,2 Adults Kids,3,1,400,150K+,35-54,39.5,162.0
+25-34,A,25-34K,Homeowner,2 Adults No Kids,2,0,404,25-49K,19-34,29.5,29.5
+19-24,B,25-34K,Homeowner,2 Adults No Kids,2,0,409,25-49K,19-34,21.5,29.5
+55-64,A,35-49K,Homeowner,2 Adults Kids,5,3,410,25-49K,55-65+,59.5,42.0
+35-44,A,Under 15K,Homeowner,2 Adults No Kids,2,0,411,<25K,35-54,39.5,15.0
+65+,A,15-24K,Homeowner,1 Adult No Kids,2,0,412,<25K,55-65+,65.0,19.5
+45-54,B,100-124K,Homeowner,1 Adult No Kids,1,0,413,100-149K,35-54,49.5,112.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,2,0,417,25-49K,35-54,49.5,42.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,3,1,418,25-49K,35-54,39.5,42.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,426,50-99K,35-54,49.5,62.0
+19-24,A,50-74K,Probable Owner,2 Adults No Kids,2,0,428,50-99K,19-34,21.5,62.0
+19-24,A,25-34K,Homeowner,1 Adult No Kids,1,0,432,25-49K,19-34,21.5,29.5
+35-44,A,15-24K,Homeowner,2 Adults Kids,3,1,434,<25K,35-54,39.5,19.5
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,437,50-99K,19-34,29.5,62.0
+35-44,A,50-74K,Probable Owner,2 Adults No Kids,2,0,438,50-99K,35-54,39.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,441,50-99K,35-54,49.5,62.0
+25-34,B,15-24K,Homeowner,1 Adult Kids,2,1,442,<25K,19-34,29.5,19.5
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,443,25-49K,35-54,49.5,29.5
+25-34,B,Under 15K,Renter,2 Adults No Kids,2,0,451,<25K,19-34,29.5,15.0
+55-64,A,35-49K,Homeowner,1 Adult No Kids,1,0,454,25-49K,55-65+,59.5,42.0
+19-24,B,50-74K,Homeowner,2 Adults No Kids,2,0,456,50-99K,19-34,21.5,62.0
+55-64,A,35-49K,Homeowner,1 Adult No Kids,2,0,458,25-49K,55-65+,59.5,42.0
+65+,B,25-34K,Homeowner,1 Adult No Kids,1,0,460,25-49K,55-65+,65.0,29.5
+65+,A,100-124K,Homeowner,1 Adult No Kids,1,0,462,100-149K,55-65+,65.0,112.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,464,50-99K,55-65+,65.0,62.0
+45-54,A,75-99K,Probable Owner,1 Adult No Kids,1,0,469,50-99K,35-54,49.5,87.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,473,50-99K,35-54,49.5,62.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,483,25-49K,35-54,49.5,42.0
+25-34,A,15-24K,Homeowner,2 Adults No Kids,2,0,484,<25K,19-34,29.5,19.5
+35-44,A,25-34K,Homeowner,1 Adult No Kids,1,0,485,25-49K,35-54,39.5,29.5
+55-64,A,150-174K,Homeowner,1 Adult No Kids,1,0,489,150K+,55-65+,59.5,162.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,5,3,490,50-99K,35-54,39.5,87.0
+45-54,A,75-99K,Homeowner,1 Adult No Kids,2,0,491,50-99K,35-54,49.5,87.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,492,50-99K,35-54,49.5,62.0
+55-64,B,50-74K,Homeowner,1 Adult No Kids,1,0,493,50-99K,55-65+,59.5,62.0
+35-44,A,250K+,Homeowner,2 Adults Kids,3,1,510,150K+,35-54,39.5,250.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,513,50-99K,35-54,49.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,518,50-99K,35-54,49.5,87.0
+65+,B,35-49K,Homeowner,1 Adult No Kids,1,0,523,25-49K,55-65+,65.0,42.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,526,50-99K,35-54,49.5,62.0
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,527,50-99K,35-54,49.5,62.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,534,25-49K,35-54,49.5,42.0
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,540,50-99K,19-34,29.5,62.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,542,25-49K,19-34,29.5,42.0
+35-44,A,35-49K,Probable Owner,1 Adult Kids,3,1,543,25-49K,35-54,39.5,42.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,546,50-99K,35-54,49.5,62.0
+35-44,B,75-99K,Homeowner,2 Adults No Kids,2,0,548,50-99K,35-54,39.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,553,50-99K,35-54,49.5,87.0
+19-24,A,35-49K,Homeowner,2 Adults No Kids,2,0,560,25-49K,19-34,21.5,42.0
+19-24,A,25-34K,Homeowner,1 Adult No Kids,1,0,567,25-49K,19-34,21.5,29.5
+35-44,A,250K+,Homeowner,2 Adults Kids,3,1,569,150K+,35-54,39.5,250.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,3,1,574,50-99K,35-54,39.5,87.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,1,0,575,50-99K,35-54,39.5,62.0
+55-64,A,35-49K,Homeowner,1 Adult No Kids,2,0,576,25-49K,55-65+,59.5,42.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,578,50-99K,19-34,29.5,62.0
+45-54,A,125-149K,Homeowner,2 Adults Kids,3,1,582,100-149K,35-54,49.5,137.0
+35-44,B,15-24K,Homeowner,1 Adult No Kids,1,0,583,<25K,35-54,39.5,19.5
+19-24,A,35-49K,Renter,2 Adults Kids,3,1,586,25-49K,19-34,21.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,5,3,588,50-99K,35-54,39.5,62.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,593,25-49K,35-54,39.5,42.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,595,25-49K,19-34,29.5,42.0
+45-54,A,15-24K,Homeowner,1 Adult Kids,3,1,596,<25K,35-54,49.5,19.5
+19-24,B,Under 15K,Homeowner,1 Adult Kids,2,1,597,<25K,19-34,21.5,15.0
+35-44,B,25-34K,Homeowner,1 Adult No Kids,1,0,598,25-49K,35-54,39.5,29.5
+35-44,A,100-124K,Homeowner,2 Adults Kids,4,2,601,100-149K,35-54,39.5,112.0
+25-34,A,75-99K,Homeowner,2 Adults Kids,4,2,605,50-99K,19-34,29.5,87.0
+45-54,B,35-49K,Probable Renter,1 Adult No Kids,1,0,606,25-49K,35-54,49.5,42.0
+45-54,B,125-149K,Homeowner,1 Adult No Kids,1,0,607,100-149K,35-54,49.5,137.0
+25-34,B,25-34K,Renter,1 Adult Kids,5,3,608,25-49K,19-34,29.5,29.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,609,50-99K,35-54,49.5,62.0
+35-44,A,15-24K,Homeowner,2 Adults Kids,4,2,614,<25K,35-54,39.5,19.5
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,621,25-49K,35-54,49.5,42.0
+35-44,A,15-24K,Homeowner,1 Adult No Kids,1,0,622,<25K,35-54,39.5,19.5
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,623,25-49K,35-54,49.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,624,50-99K,35-54,49.5,62.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,3,1,630,25-49K,35-54,39.5,42.0
+65+,A,100-124K,Homeowner,2 Adults Kids,3,1,631,100-149K,55-65+,65.0,112.0
+65+,A,75-99K,Homeowner,2 Adults No Kids,2,0,644,50-99K,55-65+,65.0,87.0
+35-44,A,50-74K,Renter,2 Adults Kids,4,2,647,50-99K,35-54,39.5,62.0
+55-64,A,50-74K,Homeowner,2 Adults No Kids,2,0,660,50-99K,55-65+,59.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,661,50-99K,35-54,49.5,62.0
+55-64,A,35-49K,Homeowner,2 Adults Kids,3,1,670,25-49K,55-65+,59.5,42.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,671,25-49K,35-54,39.5,42.0
+35-44,A,25-34K,Homeowner,2 Adults No Kids,2,0,672,25-49K,35-54,39.5,29.5
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,675,50-99K,35-54,39.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,680,50-99K,35-54,49.5,62.0
+65+,A,125-149K,Homeowner,2 Adults No Kids,2,0,682,100-149K,55-65+,65.0,137.0
+35-44,A,Under 15K,Homeowner,1 Adult No Kids,2,0,685,<25K,35-54,39.5,15.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,3,1,688,100-149K,35-54,39.5,137.0
+65+,B,15-24K,Homeowner,1 Adult No Kids,1,0,690,<25K,55-65+,65.0,19.5
+65+,A,35-49K,Homeowner,1 Adult No Kids,1,0,692,25-49K,55-65+,65.0,42.0
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,693,<25K,35-54,49.5,19.5
+35-44,B,35-49K,Homeowner,1 Adult Kids,3,2,695,25-49K,35-54,39.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,696,50-99K,35-54,39.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,699,50-99K,35-54,49.5,62.0
+45-54,B,50-74K,Homeowner,2 Adults No Kids,2,0,706,50-99K,35-54,49.5,62.0
+25-34,A,100-124K,Homeowner,2 Adults Kids,5,3,707,100-149K,19-34,29.5,112.0
+35-44,A,100-124K,Homeowner,2 Adults Kids,4,2,708,100-149K,35-54,39.5,112.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,712,50-99K,55-65+,65.0,62.0
+55-64,A,15-24K,Homeowner,2 Adults Kids,3,1,714,<25K,55-65+,59.5,19.5
+55-64,A,15-24K,Homeowner,2 Adults No Kids,2,0,715,<25K,55-65+,59.5,19.5
+45-54,A,75-99K,Homeowner,2 Adults Kids,5,3,716,50-99K,35-54,49.5,87.0
+45-54,A,25-34K,Homeowner,2 Adults Kids,5,3,718,25-49K,35-54,49.5,29.5
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,722,50-99K,35-54,39.5,62.0
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,725,25-49K,35-54,49.5,29.5
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,731,25-49K,35-54,49.5,42.0
+55-64,A,75-99K,Homeowner,2 Adults Kids,4,2,732,50-99K,55-65+,59.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,733,50-99K,35-54,49.5,87.0
+45-54,A,175-199K,Homeowner,1 Adult No Kids,2,0,740,150K+,35-54,49.5,187.0
+65+,A,50-74K,Homeowner,2 Adults Kids,3,1,741,50-99K,55-65+,65.0,62.0
+35-44,A,15-24K,Renter,1 Adult Kids,4,2,742,<25K,35-54,39.5,19.5
+45-54,B,Under 15K,Homeowner,2 Adults Kids,3,1,748,<25K,35-54,49.5,15.0
+35-44,A,75-99K,Renter,1 Adult No Kids,2,0,752,50-99K,35-54,39.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,4,2,753,50-99K,35-54,49.5,87.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,755,50-99K,35-54,39.5,62.0
+25-34,A,125-149K,Homeowner,1 Adult Kids,5,3,761,100-149K,19-34,29.5,137.0
+35-44,A,125-149K,Renter,1 Adult No Kids,2,0,762,100-149K,35-54,39.5,137.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,5,3,764,50-99K,35-54,39.5,62.0
+45-54,A,150-174K,Homeowner,2 Adults No Kids,2,0,766,150K+,35-54,49.5,162.0
+35-44,A,50-74K,Renter,1 Adult No Kids,2,0,768,50-99K,35-54,39.5,62.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,770,50-99K,19-34,29.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,771,50-99K,35-54,49.5,62.0
+65+,A,125-149K,Homeowner,2 Adults Kids,3,1,779,100-149K,55-65+,65.0,137.0
+45-54,A,100-124K,Homeowner,1 Adult No Kids,2,0,784,100-149K,35-54,49.5,112.0
+65+,A,75-99K,Homeowner,2 Adults No Kids,2,0,785,50-99K,55-65+,65.0,87.0
+19-24,A,75-99K,Homeowner,2 Adults No Kids,2,0,786,50-99K,19-34,21.5,87.0
+25-34,B,25-34K,Homeowner,1 Adult No Kids,1,0,787,25-49K,19-34,29.5,29.5
+25-34,B,Under 15K,Homeowner,1 Adult Kids,2,1,788,<25K,19-34,29.5,15.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,790,50-99K,35-54,49.5,62.0
+25-34,A,75-99K,Homeowner,2 Adults No Kids,2,0,797,50-99K,19-34,29.5,87.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,800,25-49K,19-34,29.5,42.0
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,802,25-49K,55-65+,65.0,42.0
+25-34,A,75-99K,Homeowner,2 Adults No Kids,2,0,803,50-99K,19-34,29.5,87.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,806,50-99K,35-54,39.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,808,50-99K,35-54,49.5,87.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,816,50-99K,19-34,29.5,62.0
+35-44,A,150-174K,Homeowner,2 Adults Kids,3,1,817,150K+,35-54,39.5,162.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,3,1,823,50-99K,35-54,39.5,62.0
+45-54,A,175-199K,Homeowner,2 Adults No Kids,2,0,825,150K+,35-54,49.5,187.0
+45-54,B,50-74K,Homeowner,1 Adult Kids,3,2,831,50-99K,35-54,49.5,62.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,5,3,840,50-99K,35-54,39.5,87.0
+45-54,A,200-249K,Homeowner,2 Adults No Kids,2,0,844,150K+,35-54,49.5,224.5
+19-24,B,50-74K,Homeowner,1 Adult No Kids,1,0,845,50-99K,19-34,21.5,62.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,4,2,852,25-49K,19-34,29.5,42.0
+25-34,B,175-199K,Homeowner,1 Adult No Kids,1,0,853,150K+,19-34,29.5,187.0
+55-64,B,35-49K,Homeowner,1 Adult No Kids,1,0,856,25-49K,55-65+,59.5,42.0
+65+,A,35-49K,Homeowner,1 Adult Kids,3,1,857,25-49K,55-65+,65.0,42.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,859,50-99K,19-34,29.5,62.0
+45-54,B,15-24K,Homeowner,1 Adult No Kids,1,0,863,<25K,35-54,49.5,19.5
+35-44,A,15-24K,Homeowner,1 Adult No Kids,1,0,864,<25K,35-54,39.5,19.5
+35-44,A,75-99K,Homeowner,2 Adults Kids,5,3,865,50-99K,35-54,39.5,87.0
+45-54,B,15-24K,Homeowner,1 Adult Kids,2,1,866,<25K,35-54,49.5,19.5
+45-54,B,75-99K,Homeowner,1 Adult No Kids,1,0,867,50-99K,35-54,49.5,87.0
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,868,25-49K,55-65+,65.0,42.0
+35-44,A,200-249K,Homeowner,2 Adults Kids,3,1,871,150K+,35-54,39.5,224.5
+25-34,A,25-34K,Homeowner,2 Adults Kids,3,1,875,25-49K,19-34,29.5,29.5
+25-34,B,35-49K,Homeowner,1 Adult Kids,3,2,878,25-49K,19-34,29.5,42.0
+35-44,B,50-74K,Homeowner,2 Adults No Kids,2,0,879,50-99K,35-54,39.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,882,50-99K,35-54,49.5,62.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,883,25-49K,35-54,39.5,42.0
+35-44,A,100-124K,Homeowner,2 Adults No Kids,2,0,886,100-149K,35-54,39.5,112.0
+25-34,A,150-174K,Homeowner,2 Adults Kids,3,1,888,150K+,19-34,29.5,162.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,4,2,889,50-99K,19-34,29.5,62.0
+45-54,A,150-174K,Homeowner,1 Adult No Kids,1,0,895,150K+,35-54,49.5,162.0
+55-64,A,125-149K,Homeowner,2 Adults No Kids,2,0,898,100-149K,55-65+,59.5,137.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,900,25-49K,35-54,39.5,42.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,903,25-49K,35-54,39.5,42.0
+55-64,A,Under 15K,Homeowner,1 Adult No Kids,2,0,906,<25K,55-65+,59.5,15.0
+45-54,A,100-124K,Probable Owner,2 Adults Kids,3,1,908,100-149K,35-54,49.5,112.0
+25-34,A,125-149K,Homeowner,2 Adults No Kids,2,0,911,100-149K,19-34,29.5,137.0
+45-54,B,15-24K,Homeowner,2 Adults No Kids,2,0,914,<25K,35-54,49.5,19.5
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,915,<25K,35-54,49.5,19.5
+45-54,A,35-49K,Homeowner,2 Adults Kids,5,3,920,25-49K,35-54,49.5,42.0
+45-54,B,35-49K,Homeowner,1 Adult No Kids,1,0,922,25-49K,35-54,49.5,42.0
+35-44,A,Under 15K,Homeowner,2 Adults No Kids,2,0,926,<25K,35-54,39.5,15.0
+45-54,B,25-34K,Renter,1 Adult Kids,2,1,929,25-49K,35-54,49.5,29.5
+19-24,A,15-24K,Homeowner,2 Adults No Kids,2,0,932,<25K,19-34,21.5,19.5
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,934,<25K,35-54,49.5,15.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,939,50-99K,35-54,49.5,87.0
+19-24,A,200-249K,Homeowner,2 Adults No Kids,2,0,941,150K+,19-34,21.5,224.5
+19-24,A,Under 15K,Homeowner,1 Adult No Kids,1,0,946,<25K,19-34,21.5,15.0
+65+,B,35-49K,Homeowner,1 Adult No Kids,1,0,947,25-49K,55-65+,65.0,42.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,949,50-99K,19-34,29.5,62.0
+19-24,A,Under 15K,Homeowner,1 Adult No Kids,1,0,955,<25K,19-34,21.5,15.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,956,50-99K,35-54,49.5,62.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,5,3,960,100-149K,35-54,39.5,137.0
+35-44,B,35-49K,Renter,1 Adult Kids,2,1,968,25-49K,35-54,39.5,42.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,971,25-49K,19-34,29.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,4,2,973,50-99K,35-54,39.5,62.0
+25-34,A,200-249K,Homeowner,2 Adults Kids,5,3,976,150K+,19-34,29.5,224.5
+35-44,B,35-49K,Homeowner,1 Adult Kids,2,1,979,25-49K,35-54,39.5,42.0
+45-54,A,25-34K,Homeowner,1 Adult No Kids,2,0,981,25-49K,35-54,49.5,29.5
+45-54,A,35-49K,Homeowner,2 Adults Kids,4,2,982,25-49K,35-54,49.5,42.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,983,25-49K,35-54,49.5,42.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,986,25-49K,19-34,29.5,42.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,992,25-49K,35-54,49.5,42.0
+55-64,A,50-74K,Homeowner,1 Adult Kids,5,3,993,50-99K,55-65+,59.5,62.0
+55-64,A,25-34K,Homeowner,2 Adults No Kids,2,0,996,25-49K,55-65+,59.5,29.5
+45-54,A,75-99K,Homeowner,1 Adult No Kids,1,0,997,50-99K,35-54,49.5,87.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1001,50-99K,35-54,49.5,62.0
+35-44,A,25-34K,Homeowner,1 Adult No Kids,1,0,1003,25-49K,35-54,39.5,29.5
+25-34,A,15-24K,Homeowner,1 Adult No Kids,1,0,1004,<25K,19-34,29.5,19.5
+35-44,A,35-49K,Homeowner,2 Adults Kids,5,3,1012,25-49K,35-54,39.5,42.0
+45-54,A,15-24K,Homeowner,2 Adults Kids,4,2,1014,<25K,35-54,49.5,19.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1015,50-99K,35-54,49.5,62.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,5,3,1018,25-49K,35-54,49.5,42.0
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,1020,25-49K,35-54,49.5,29.5
+35-44,A,50-74K,Homeowner,2 Adults Kids,5,3,1021,50-99K,35-54,39.5,62.0
+25-34,A,Under 15K,Homeowner,2 Adults Kids,4,2,1024,<25K,19-34,29.5,15.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1031,50-99K,35-54,39.5,87.0
+55-64,A,Under 15K,Probable Renter,1 Adult No Kids,1,0,1038,<25K,55-65+,59.5,15.0
+25-34,B,100-124K,Homeowner,1 Adult No Kids,1,0,1040,100-149K,19-34,29.5,112.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,1041,25-49K,19-34,29.5,42.0
+25-34,A,75-99K,Homeowner,2 Adults No Kids,2,0,1042,50-99K,19-34,29.5,87.0
+25-34,A,Under 15K,Homeowner,1 Adult No Kids,2,0,1045,<25K,19-34,29.5,15.0
+55-64,A,100-124K,Homeowner,2 Adults No Kids,2,0,1053,100-149K,55-65+,59.5,112.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,1,0,1057,50-99K,35-54,39.5,62.0
+35-44,B,35-49K,Renter,2 Adults No Kids,2,0,1060,25-49K,35-54,39.5,42.0
+65+,A,15-24K,Homeowner,2 Adults No Kids,2,0,1062,<25K,55-65+,65.0,19.5
+35-44,A,25-34K,Homeowner,2 Adults No Kids,2,0,1066,25-49K,35-54,39.5,29.5
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,1069,25-49K,19-34,29.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,1070,50-99K,35-54,39.5,62.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,4,2,1074,25-49K,35-54,49.5,42.0
+25-34,B,35-49K,Homeowner,2 Adults No Kids,2,0,1076,25-49K,19-34,29.5,42.0
+55-64,A,75-99K,Homeowner,2 Adults No Kids,2,0,1081,50-99K,55-65+,59.5,87.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,1082,25-49K,35-54,49.5,42.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,1084,25-49K,19-34,29.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,1091,50-99K,35-54,49.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,5,3,1094,50-99K,35-54,49.5,87.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,3,1,1103,50-99K,35-54,39.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,3,1,1113,50-99K,35-54,49.5,62.0
+35-44,B,Under 15K,Renter,2 Adults Kids,4,2,1120,<25K,35-54,39.5,15.0
+55-64,A,15-24K,Homeowner,1 Adult No Kids,2,0,1123,<25K,55-65+,59.5,19.5
+25-34,A,75-99K,Homeowner,2 Adults Kids,3,1,1128,50-99K,19-34,29.5,87.0
+55-64,A,25-34K,Renter,2 Adults Kids,3,1,1130,25-49K,55-65+,59.5,29.5
+45-54,B,50-74K,Homeowner,2 Adults Kids,3,1,1131,50-99K,35-54,49.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult Kids,2,1,1135,50-99K,35-54,49.5,62.0
+65+,B,35-49K,Homeowner,1 Adult No Kids,1,0,1137,25-49K,55-65+,65.0,42.0
+35-44,A,15-24K,Homeowner,2 Adults No Kids,2,0,1138,<25K,35-54,39.5,19.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1142,50-99K,35-54,49.5,62.0
+35-44,B,35-49K,Homeowner,1 Adult Kids,4,3,1146,25-49K,35-54,39.5,42.0
+19-24,A,25-34K,Homeowner,2 Adults No Kids,2,0,1147,25-49K,19-34,21.5,29.5
+45-54,A,Under 15K,Probable Renter,1 Adult No Kids,1,0,1151,<25K,35-54,49.5,15.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,1154,25-49K,35-54,49.5,42.0
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,1158,<25K,35-54,49.5,19.5
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,1159,<25K,35-54,49.5,19.5
+65+,A,35-49K,Homeowner,1 Adult No Kids,1,0,1160,25-49K,55-65+,65.0,42.0
+35-44,B,Under 15K,Homeowner,1 Adult No Kids,1,0,1163,<25K,35-54,39.5,15.0
+25-34,A,15-24K,Homeowner,1 Adult No Kids,1,0,1164,<25K,19-34,29.5,19.5
+45-54,A,125-149K,Homeowner,2 Adults Kids,3,1,1166,100-149K,35-54,49.5,137.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,4,2,1167,50-99K,35-54,39.5,62.0
+19-24,A,15-24K,Homeowner,2 Adults No Kids,2,0,1169,<25K,19-34,21.5,19.5
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,1172,50-99K,19-34,29.5,62.0
+25-34,A,Under 15K,Homeowner,2 Adults Kids,5,3,1174,<25K,19-34,29.5,15.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,2,0,1175,50-99K,19-34,29.5,62.0
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,1178,<25K,35-54,49.5,19.5
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,1179,50-99K,35-54,39.5,62.0
+45-54,A,50-74K,Homeowner,1 Adult Kids,5,3,1186,50-99K,35-54,49.5,62.0
+45-54,B,35-49K,Renter,1 Adult No Kids,1,0,1188,25-49K,35-54,49.5,42.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,1190,25-49K,19-34,29.5,42.0
+35-44,A,150-174K,Homeowner,2 Adults No Kids,2,0,1197,150K+,35-54,39.5,162.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,4,2,1218,25-49K,35-54,49.5,42.0
+19-24,A,15-24K,Homeowner,2 Adults Kids,3,1,1219,<25K,19-34,21.5,19.5
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,1222,<25K,35-54,49.5,19.5
+25-34,B,35-49K,Homeowner,1 Adult Kids,3,2,1226,25-49K,19-34,29.5,42.0
+45-54,A,100-124K,Homeowner,1 Adult No Kids,1,0,1228,100-149K,35-54,49.5,112.0
+55-64,A,150-174K,Homeowner,2 Adults No Kids,2,0,1229,150K+,55-65+,59.5,162.0
+45-54,B,35-49K,Homeowner,2 Adults No Kids,2,0,1234,25-49K,35-54,49.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,3,1,1236,50-99K,35-54,39.5,62.0
+45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,0,1240,<25K,35-54,49.5,15.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,1247,25-49K,35-54,39.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult Kids,2,1,1248,50-99K,35-54,49.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult Kids,2,1,1256,50-99K,35-54,49.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,3,1,1257,50-99K,35-54,49.5,62.0
+45-54,B,75-99K,Homeowner,1 Adult No Kids,1,0,1258,50-99K,35-54,49.5,87.0
+65+,A,50-74K,Homeowner,1 Adult No Kids,1,0,1260,50-99K,55-65+,65.0,62.0
+45-54,A,25-34K,Homeowner,1 Adult No Kids,2,0,1261,25-49K,35-54,49.5,29.5
+25-34,B,15-24K,Homeowner,1 Adult No Kids,1,0,1263,<25K,19-34,29.5,19.5
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,1264,<25K,35-54,49.5,19.5
+25-34,A,75-99K,Homeowner,1 Adult No Kids,1,0,1267,50-99K,19-34,29.5,87.0
+35-44,A,Under 15K,Homeowner,2 Adults Kids,4,2,1268,<25K,35-54,39.5,15.0
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,1270,<25K,35-54,49.5,19.5
+65+,A,35-49K,Homeowner,1 Adult No Kids,2,0,1272,25-49K,55-65+,65.0,42.0
+25-34,B,25-34K,Renter,1 Adult Kids,3,2,1285,25-49K,19-34,29.5,29.5
+55-64,A,35-49K,Homeowner,1 Adult No Kids,2,0,1291,25-49K,55-65+,59.5,42.0
+65+,A,25-34K,Homeowner,1 Adult No Kids,2,0,1296,25-49K,55-65+,65.0,29.5
+35-44,B,75-99K,Homeowner,1 Adult No Kids,1,0,1297,50-99K,35-54,39.5,87.0
+35-44,A,15-24K,Renter,2 Adults Kids,4,2,1299,<25K,35-54,39.5,19.5
+45-54,A,50-74K,Homeowner,2 Adults Kids,4,2,1300,50-99K,35-54,49.5,62.0
+19-24,B,Under 15K,Renter,1 Adult Kids,2,1,1305,<25K,19-34,21.5,15.0
+45-54,B,Under 15K,Homeowner,1 Adult No Kids,1,0,1306,<25K,35-54,49.5,15.0
+55-64,A,35-49K,Homeowner,2 Adults No Kids,2,0,1316,25-49K,55-65+,59.5,42.0
+65+,A,50-74K,Homeowner,2 Adults No Kids,2,0,1318,50-99K,55-65+,65.0,62.0
+19-24,A,35-49K,Homeowner,2 Adults No Kids,2,0,1321,25-49K,19-34,21.5,42.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,1326,<25K,35-54,49.5,15.0
+45-54,A,125-149K,Homeowner,2 Adults Kids,4,2,1333,100-149K,35-54,49.5,137.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,4,2,1337,50-99K,35-54,49.5,62.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1352,50-99K,35-54,39.5,87.0
+65+,B,15-24K,Homeowner,2 Adults No Kids,2,0,1354,<25K,55-65+,65.0,19.5
+55-64,A,25-34K,Homeowner,2 Adults No Kids,2,0,1357,25-49K,55-65+,59.5,29.5
+25-34,B,15-24K,Homeowner,1 Adult Kids,2,1,1363,<25K,19-34,29.5,19.5
+65+,B,100-124K,Homeowner,1 Adult No Kids,1,0,1364,100-149K,55-65+,65.0,112.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,3,1,1367,50-99K,35-54,39.5,87.0
+25-34,B,Under 15K,Probable Renter,1 Adult No Kids,1,0,1369,<25K,19-34,29.5,15.0
+65+,A,25-34K,Homeowner,2 Adults No Kids,2,0,1370,25-49K,55-65+,65.0,29.5
+55-64,B,50-74K,Homeowner,1 Adult No Kids,1,0,1376,50-99K,55-65+,59.5,62.0
+25-34,A,100-124K,Homeowner,1 Adult No Kids,1,0,1378,100-149K,19-34,29.5,112.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1382,50-99K,35-54,49.5,62.0
+35-44,A,100-124K,Homeowner,2 Adults Kids,3,1,1388,100-149K,35-54,39.5,112.0
+65+,A,100-124K,Homeowner,1 Adult No Kids,2,0,1389,100-149K,55-65+,65.0,112.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1391,50-99K,35-54,49.5,62.0
+35-44,B,150-174K,Homeowner,1 Adult No Kids,1,0,1393,150K+,35-54,39.5,162.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1394,50-99K,35-54,49.5,62.0
+65+,A,125-149K,Homeowner,2 Adults No Kids,2,0,1396,100-149K,55-65+,65.0,137.0
+45-54,B,35-49K,Renter,1 Adult No Kids,1,0,1397,25-49K,35-54,49.5,42.0
+55-64,A,15-24K,Homeowner,1 Adult No Kids,1,0,1402,<25K,55-65+,59.5,19.5
+45-54,A,50-74K,Homeowner,2 Adults Kids,3,1,1412,50-99K,35-54,49.5,62.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,1418,25-49K,19-34,29.5,42.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,1419,25-49K,35-54,39.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,1421,50-99K,35-54,39.5,62.0
+45-54,A,15-24K,Homeowner,1 Adult No Kids,1,0,1423,<25K,35-54,49.5,19.5
+19-24,B,50-74K,Homeowner,2 Adults Kids,3,1,1425,50-99K,19-34,21.5,62.0
+55-64,A,35-49K,Homeowner,2 Adults No Kids,2,0,1428,25-49K,55-65+,59.5,42.0
+45-54,B,35-49K,Renter,1 Adult No Kids,1,0,1429,25-49K,35-54,49.5,42.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,3,1,1430,25-49K,35-54,39.5,42.0
+25-34,A,15-24K,Homeowner,1 Adult Kids,3,1,1437,<25K,19-34,29.5,19.5
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,1438,<25K,35-54,49.5,15.0
+35-44,A,150-174K,Homeowner,2 Adults No Kids,2,0,1443,150K+,35-54,39.5,162.0
+35-44,A,Under 15K,Homeowner,2 Adults No Kids,2,0,1445,<25K,35-54,39.5,15.0
+45-54,A,125-149K,Homeowner,1 Adult Kids,5,3,1451,100-149K,35-54,49.5,137.0
+45-54,A,25-34K,Homeowner,2 Adults Kids,3,1,1452,25-49K,35-54,49.5,29.5
+45-54,A,125-149K,Homeowner,2 Adults Kids,3,1,1453,100-149K,35-54,49.5,137.0
+65+,A,75-99K,Homeowner,2 Adults No Kids,2,0,1454,50-99K,55-65+,65.0,87.0
+35-44,A,25-34K,Homeowner,2 Adults No Kids,2,0,1461,25-49K,35-54,39.5,29.5
+25-34,A,50-74K,Renter,2 Adults No Kids,2,0,1462,50-99K,19-34,29.5,62.0
+35-44,A,50-74K,Probable Owner,2 Adults Kids,4,2,1467,50-99K,35-54,39.5,62.0
+65+,A,75-99K,Homeowner,2 Adults No Kids,2,0,1468,50-99K,55-65+,65.0,87.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,1470,25-49K,35-54,49.5,42.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,1474,50-99K,35-54,39.5,62.0
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,1475,50-99K,19-34,29.5,62.0
+45-54,B,15-24K,Probable Renter,1 Adult No Kids,1,0,1479,<25K,35-54,49.5,19.5
+19-24,A,35-49K,Homeowner,1 Adult No Kids,1,0,1481,25-49K,19-34,21.5,42.0
+19-24,B,Under 15K,Homeowner,1 Adult No Kids,1,0,1483,<25K,19-34,21.5,15.0
+19-24,A,35-49K,Homeowner,2 Adults No Kids,2,0,1484,25-49K,19-34,21.5,42.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,1,0,1485,50-99K,35-54,39.5,62.0
+25-34,A,50-74K,Probable Owner,1 Adult No Kids,2,0,1488,50-99K,19-34,29.5,62.0
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,1491,25-49K,55-65+,65.0,42.0
+65+,A,15-24K,Homeowner,2 Adults No Kids,2,0,1492,<25K,55-65+,65.0,19.5
+65+,B,25-34K,Homeowner,1 Adult No Kids,1,0,1494,25-49K,55-65+,65.0,29.5
+55-64,A,15-24K,Homeowner,2 Adults No Kids,2,0,1499,<25K,55-65+,59.5,19.5
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,1505,25-49K,35-54,49.5,29.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1509,50-99K,35-54,49.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,4,2,1517,50-99K,35-54,49.5,62.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,1524,25-49K,35-54,49.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,1527,50-99K,19-34,29.5,62.0
+35-44,B,125-149K,Homeowner,1 Adult No Kids,1,0,1528,100-149K,35-54,39.5,137.0
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,1529,50-99K,35-54,49.5,62.0
+25-34,A,75-99K,Renter,2 Adults Kids,3,1,1534,50-99K,19-34,29.5,87.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1536,50-99K,35-54,49.5,62.0
+19-24,A,35-49K,Renter,2 Adults Kids,3,1,1537,25-49K,19-34,21.5,42.0
+45-54,A,15-24K,Homeowner,2 Adults Kids,4,2,1540,<25K,35-54,49.5,19.5
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,1541,50-99K,35-54,39.5,62.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,1545,25-49K,35-54,49.5,42.0
+45-54,B,15-24K,Homeowner,1 Adult No Kids,1,0,1549,<25K,35-54,49.5,19.5
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,1556,25-49K,35-54,49.5,42.0
+25-34,A,100-124K,Renter,1 Adult Kids,4,2,1557,100-149K,19-34,29.5,112.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,1563,50-99K,35-54,49.5,87.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1566,50-99K,35-54,39.5,87.0
+45-54,A,15-24K,Renter,1 Adult No Kids,1,0,1567,<25K,35-54,49.5,19.5
+55-64,B,35-49K,Homeowner,1 Adult No Kids,1,0,1568,25-49K,55-65+,59.5,42.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1572,50-99K,35-54,39.5,87.0
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,1578,<25K,35-54,49.5,19.5
+19-24,B,50-74K,Homeowner,2 Adults No Kids,2,0,1580,50-99K,19-34,21.5,62.0
+45-54,B,150-174K,Homeowner,1 Adult No Kids,1,0,1585,150K+,35-54,49.5,162.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,1588,50-99K,35-54,39.5,62.0
+25-34,A,25-34K,Homeowner,1 Adult No Kids,1,0,1591,25-49K,19-34,29.5,29.5
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,1595,50-99K,35-54,49.5,62.0
+35-44,A,35-49K,Probable Owner,2 Adults No Kids,2,0,1604,25-49K,35-54,39.5,42.0
+45-54,A,125-149K,Homeowner,2 Adults Kids,5,3,1609,100-149K,35-54,49.5,137.0
+35-44,A,75-99K,Homeowner,1 Adult No Kids,2,0,1618,50-99K,35-54,39.5,87.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,1627,25-49K,19-34,29.5,42.0
+19-24,B,Under 15K,Renter,1 Adult Kids,4,3,1631,<25K,19-34,21.5,15.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1633,50-99K,35-54,49.5,62.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,5,3,1634,25-49K,19-34,29.5,42.0
+35-44,A,15-24K,Probable Renter,1 Adult No Kids,1,0,1648,<25K,35-54,39.5,19.5
+35-44,B,150-174K,Homeowner,1 Adult No Kids,1,0,1649,150K+,35-54,39.5,162.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,1650,50-99K,35-54,49.5,87.0
+35-44,B,Under 15K,Homeowner,1 Adult No Kids,1,0,1653,<25K,35-54,39.5,15.0
+35-44,A,150-174K,Homeowner,2 Adults No Kids,2,0,1662,150K+,35-54,39.5,162.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1676,50-99K,35-54,39.5,87.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,1677,50-99K,35-54,49.5,87.0
+45-54,A,75-99K,Homeowner,1 Adult No Kids,1,0,1678,50-99K,35-54,49.5,87.0
+25-34,A,15-24K,Homeowner,2 Adults Kids,3,1,1680,<25K,19-34,29.5,19.5
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,1686,<25K,35-54,49.5,19.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1689,50-99K,35-54,49.5,62.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,1692,50-99K,35-54,39.5,62.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,1693,25-49K,19-34,29.5,42.0
+35-44,A,15-24K,Probable Renter,1 Adult No Kids,1,0,1694,<25K,35-54,39.5,19.5
+35-44,A,25-34K,Homeowner,1 Adult No Kids,1,0,1695,25-49K,35-54,39.5,29.5
+45-54,A,50-74K,Homeowner,2 Adults Kids,3,1,1696,50-99K,35-54,49.5,62.0
+35-44,B,25-34K,Homeowner,1 Adult No Kids,1,0,1707,25-49K,35-54,39.5,29.5
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,1708,25-49K,35-54,49.5,29.5
+25-34,A,35-49K,Homeowner,2 Adults Kids,3,1,1709,25-49K,19-34,29.5,42.0
+35-44,A,150-174K,Homeowner,1 Adult No Kids,2,0,1710,150K+,35-54,39.5,162.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1720,50-99K,35-54,49.5,62.0
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,1722,<25K,35-54,49.5,19.5
+55-64,A,75-99K,Homeowner,1 Adult No Kids,1,0,1726,50-99K,55-65+,59.5,87.0
+19-24,A,250K+,Homeowner,1 Adult No Kids,1,0,1740,150K+,19-34,21.5,250.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,2,0,1745,<25K,35-54,49.5,15.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,1748,25-49K,35-54,49.5,42.0
+55-64,B,35-49K,Homeowner,1 Adult No Kids,1,0,1749,25-49K,55-65+,59.5,42.0
+25-34,A,15-24K,Renter,2 Adults Kids,4,2,1751,<25K,19-34,29.5,19.5
+45-54,B,35-49K,Homeowner,1 Adult No Kids,1,0,1753,25-49K,35-54,49.5,42.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,5,3,1759,25-49K,35-54,39.5,42.0
+45-54,A,125-149K,Homeowner,2 Adults Kids,5,3,1762,100-149K,35-54,49.5,137.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,4,2,1764,50-99K,35-54,49.5,87.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,1765,25-49K,35-54,49.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,5,3,1775,50-99K,35-54,49.5,87.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,1778,25-49K,19-34,29.5,42.0
+65+,A,75-99K,Homeowner,2 Adults No Kids,2,0,1779,50-99K,55-65+,65.0,87.0
+25-34,A,35-49K,Homeowner,2 Adults Kids,5,3,1785,25-49K,19-34,29.5,42.0
+35-44,A,75-99K,Homeowner,2 Adults No Kids,2,0,1788,50-99K,35-54,39.5,87.0
+45-54,B,100-124K,Homeowner,2 Adults No Kids,2,0,1791,100-149K,35-54,49.5,112.0
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,1795,25-49K,35-54,49.5,29.5
+19-24,A,35-49K,Homeowner,1 Adult No Kids,1,0,1796,25-49K,19-34,21.5,42.0
+65+,A,Under 15K,Homeowner,1 Adult No Kids,1,0,1797,<25K,55-65+,65.0,15.0
+35-44,A,175-199K,Homeowner,2 Adults No Kids,2,0,1800,150K+,35-54,39.5,187.0
+45-54,A,150-174K,Homeowner,2 Adults No Kids,2,0,1802,150K+,35-54,49.5,162.0
+19-24,A,50-74K,Homeowner,2 Adults Kids,3,1,1803,50-99K,19-34,21.5,62.0
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,1804,25-49K,55-65+,65.0,42.0
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,1812,50-99K,35-54,49.5,62.0
+65+,A,150-174K,Homeowner,2 Adults No Kids,2,0,1814,150K+,55-65+,65.0,162.0
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,1815,25-49K,35-54,49.5,29.5
+19-24,B,Under 15K,Renter,2 Adults Kids,5,3,1816,<25K,19-34,21.5,15.0
+45-54,A,150-174K,Homeowner,2 Adults No Kids,2,0,1820,150K+,35-54,49.5,162.0
+55-64,A,35-49K,Homeowner,2 Adults No Kids,2,0,1822,25-49K,55-65+,59.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,1823,50-99K,35-54,49.5,87.0
+65+,A,75-99K,Homeowner,1 Adult No Kids,2,0,1829,50-99K,55-65+,65.0,87.0
+55-64,A,75-99K,Homeowner,1 Adult No Kids,1,0,1831,50-99K,55-65+,59.5,87.0
+25-34,B,25-34K,Homeowner,1 Adult Kids,5,3,1833,25-49K,19-34,29.5,29.5
+45-54,A,125-149K,Homeowner,2 Adults Kids,5,3,1834,100-149K,35-54,49.5,137.0
+45-54,B,35-49K,Homeowner,2 Adults No Kids,2,0,1841,25-49K,35-54,49.5,42.0
+45-54,A,250K+,Homeowner,2 Adults No Kids,2,0,1844,150K+,35-54,49.5,250.0
+45-54,A,175-199K,Homeowner,2 Adults Kids,3,1,1845,150K+,35-54,49.5,187.0
+45-54,A,175-199K,Homeowner,1 Adult No Kids,1,0,1847,150K+,35-54,49.5,187.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,1848,50-99K,35-54,49.5,87.0
+65+,A,75-99K,Homeowner,1 Adult No Kids,2,0,1850,50-99K,55-65+,65.0,87.0
+25-34,B,150-174K,Homeowner,1 Adult No Kids,1,0,1858,150K+,19-34,29.5,162.0
+25-34,A,15-24K,Homeowner,2 Adults Kids,4,2,1861,<25K,19-34,29.5,19.5
+45-54,B,125-149K,Homeowner,1 Adult Kids,5,3,1864,100-149K,35-54,49.5,137.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1865,50-99K,35-54,49.5,62.0
+19-24,A,35-49K,Renter,2 Adults No Kids,2,0,1869,25-49K,19-34,21.5,42.0
+35-44,A,15-24K,Homeowner,1 Adult No Kids,1,0,1873,<25K,35-54,39.5,19.5
+65+,A,35-49K,Homeowner,1 Adult No Kids,2,0,1879,25-49K,55-65+,65.0,42.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,3,1,1892,25-49K,35-54,39.5,42.0
+35-44,A,100-124K,Homeowner,2 Adults No Kids,2,0,1894,100-149K,35-54,39.5,112.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1896,50-99K,35-54,49.5,62.0
+25-34,A,25-34K,Homeowner,2 Adults Kids,3,1,1899,25-49K,19-34,29.5,29.5
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,1901,25-49K,35-54,49.5,42.0
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,1907,50-99K,19-34,29.5,62.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,2,0,1911,50-99K,35-54,39.5,62.0
+55-64,B,75-99K,Homeowner,1 Adult No Kids,1,0,1914,50-99K,55-65+,59.5,87.0
+65+,A,15-24K,Homeowner,1 Adult No Kids,1,0,1917,<25K,55-65+,65.0,19.5
+35-44,A,35-49K,Homeowner,1 Adult Kids,5,3,1919,25-49K,35-54,39.5,42.0
+55-64,A,50-74K,Homeowner,2 Adults No Kids,2,0,1920,50-99K,55-65+,59.5,62.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,1921,25-49K,35-54,39.5,42.0
+19-24,B,35-49K,Renter,1 Adult No Kids,1,0,1923,25-49K,19-34,21.5,42.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,1926,25-49K,19-34,29.5,42.0
+19-24,B,Under 15K,Homeowner,1 Adult No Kids,1,0,1927,<25K,19-34,21.5,15.0
+35-44,B,75-99K,Homeowner,2 Adults Kids,3,1,1928,50-99K,35-54,39.5,87.0
+35-44,B,25-34K,Homeowner,1 Adult No Kids,1,0,1929,25-49K,35-54,39.5,29.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1931,50-99K,35-54,49.5,62.0
+55-64,A,150-174K,Homeowner,2 Adults No Kids,2,0,1935,150K+,55-65+,59.5,162.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,1937,50-99K,35-54,49.5,62.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,1939,50-99K,35-54,39.5,62.0
+25-34,A,125-149K,Homeowner,2 Adults Kids,4,2,1944,100-149K,19-34,29.5,137.0
+25-34,A,75-99K,Homeowner,1 Adult No Kids,1,0,1946,50-99K,19-34,29.5,87.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,1,0,1948,50-99K,35-54,39.5,62.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,1949,<25K,35-54,49.5,15.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,1953,50-99K,35-54,49.5,62.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,1955,25-49K,19-34,29.5,42.0
+65+,A,25-34K,Homeowner,2 Adults No Kids,2,0,1962,25-49K,55-65+,65.0,29.5
+65+,A,Under 15K,Renter,1 Adult No Kids,1,0,1964,<25K,55-65+,65.0,15.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,3,1,1965,50-99K,19-34,29.5,62.0
+35-44,B,75-99K,Renter,1 Adult No Kids,1,0,1975,50-99K,35-54,39.5,87.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,1976,50-99K,19-34,29.5,62.0
+45-54,A,150-174K,Homeowner,2 Adults Kids,3,1,1979,150K+,35-54,49.5,162.0
+55-64,A,50-74K,Homeowner,1 Adult No Kids,2,0,1980,50-99K,55-65+,59.5,62.0
+25-34,A,100-124K,Homeowner,1 Adult No Kids,1,0,1982,100-149K,19-34,29.5,112.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,1985,50-99K,19-34,29.5,62.0
+65+,A,15-24K,Homeowner,1 Adult No Kids,1,0,1989,<25K,55-65+,65.0,19.5
+35-44,A,125-149K,Homeowner,2 Adults Kids,5,3,1990,100-149K,35-54,39.5,137.0
+25-34,B,25-34K,Homeowner,1 Adult Kids,3,2,1995,25-49K,19-34,29.5,29.5
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,1997,50-99K,19-34,29.5,62.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,2002,25-49K,35-54,39.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2004,50-99K,35-54,49.5,62.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,2006,<25K,35-54,49.5,15.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,3,1,2007,50-99K,35-54,49.5,62.0
+45-54,A,75-99K,Homeowner,1 Adult No Kids,1,0,2011,50-99K,35-54,49.5,87.0
+45-54,A,25-34K,Renter,1 Adult No Kids,2,0,2012,25-49K,35-54,49.5,29.5
+19-24,A,25-34K,Homeowner,1 Adult No Kids,1,0,2013,25-49K,19-34,21.5,29.5
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,2017,50-99K,35-54,49.5,87.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2018,50-99K,35-54,49.5,62.0
+35-44,A,100-124K,Homeowner,2 Adults Kids,5,3,2020,100-149K,35-54,39.5,112.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,2023,25-49K,35-54,49.5,42.0
+25-34,B,125-149K,Homeowner,2 Adults No Kids,2,0,2024,100-149K,19-34,29.5,137.0
+35-44,B,75-99K,Homeowner,1 Adult No Kids,1,0,2030,50-99K,35-54,39.5,87.0
+25-34,A,25-34K,Homeowner,1 Adult No Kids,1,0,2040,25-49K,19-34,29.5,29.5
+35-44,B,35-49K,Renter,2 Adults No Kids,2,0,2041,25-49K,35-54,39.5,42.0
+35-44,A,25-34K,Homeowner,2 Adults Kids,5,3,2050,25-49K,35-54,39.5,29.5
+45-54,A,15-24K,Homeowner,2 Adults No Kids,2,0,2053,<25K,35-54,49.5,19.5
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,2057,25-49K,35-54,39.5,42.0
+25-34,B,125-149K,Homeowner,2 Adults No Kids,2,0,2058,100-149K,19-34,29.5,137.0
+25-34,A,25-34K,Homeowner,2 Adults No Kids,2,0,2062,25-49K,19-34,29.5,29.5
+55-64,A,75-99K,Homeowner,2 Adults No Kids,2,0,2063,50-99K,55-65+,59.5,87.0
+19-24,A,50-74K,Homeowner,1 Adult No Kids,1,0,2064,50-99K,19-34,21.5,62.0
+55-64,A,50-74K,Homeowner,1 Adult No Kids,2,0,2068,50-99K,55-65+,59.5,62.0
+35-44,A,15-24K,Homeowner,1 Adult No Kids,1,0,2069,<25K,35-54,39.5,19.5
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2070,50-99K,35-54,49.5,62.0
+25-34,A,100-124K,Homeowner,2 Adults Kids,3,1,2076,100-149K,19-34,29.5,112.0
+45-54,A,Under 15K,Homeowner,2 Adults Kids,3,1,2082,<25K,35-54,49.5,15.0
+55-64,A,125-149K,Homeowner,2 Adults No Kids,2,0,2084,100-149K,55-65+,59.5,137.0
+35-44,A,35-49K,Homeowner,2 Adults No Kids,2,0,2085,25-49K,35-54,39.5,42.0
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,2086,25-49K,35-54,49.5,29.5
+45-54,B,100-124K,Homeowner,1 Adult No Kids,1,0,2087,100-149K,35-54,49.5,112.0
+25-34,A,35-49K,Homeowner,1 Adult No Kids,1,0,2088,25-49K,19-34,29.5,42.0
+35-44,A,Under 15K,Homeowner,1 Adult Kids,3,1,2092,<25K,35-54,39.5,15.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2094,50-99K,35-54,49.5,62.0
+35-44,A,15-24K,Homeowner,2 Adults Kids,5,3,2097,<25K,35-54,39.5,19.5
+65+,A,35-49K,Homeowner,2 Adults No Kids,2,0,2100,25-49K,55-65+,65.0,42.0
+55-64,A,175-199K,Homeowner,2 Adults No Kids,2,0,2102,150K+,55-65+,59.5,187.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,5,3,2107,50-99K,35-54,39.5,87.0
+35-44,A,125-149K,Homeowner,2 Adults No Kids,2,0,2110,100-149K,35-54,39.5,137.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,2111,50-99K,35-54,49.5,87.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,5,3,2112,25-49K,35-54,49.5,42.0
+35-44,A,150-174K,Homeowner,2 Adults Kids,5,3,2115,150K+,35-54,39.5,162.0
+35-44,A,75-99K,Homeowner,2 Adults Kids,5,3,2116,50-99K,35-54,39.5,87.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,2119,50-99K,19-34,29.5,62.0
+55-64,B,35-49K,Homeowner,2 Adults No Kids,2,0,2121,25-49K,55-65+,59.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,2123,50-99K,35-54,49.5,87.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,4,2,2124,50-99K,19-34,29.5,62.0
+25-34,B,35-49K,Homeowner,1 Adult Kids,2,1,2129,25-49K,19-34,29.5,42.0
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,2130,50-99K,19-34,29.5,62.0
+55-64,A,100-124K,Homeowner,2 Adults No Kids,2,0,2133,100-149K,55-65+,59.5,112.0
+35-44,A,35-49K,Homeowner,1 Adult No Kids,1,0,2134,25-49K,35-54,39.5,42.0
+65+,A,15-24K,Homeowner,2 Adults No Kids,2,0,2140,<25K,55-65+,65.0,19.5
+25-34,A,75-99K,Homeowner,2 Adults Kids,3,1,2147,50-99K,19-34,29.5,87.0
+55-64,A,35-49K,Homeowner,2 Adults Kids,4,2,2148,25-49K,55-65+,59.5,42.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,2154,25-49K,35-54,49.5,42.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2156,50-99K,35-54,49.5,62.0
+25-34,B,50-74K,Probable Renter,1 Adult No Kids,1,0,2158,50-99K,19-34,29.5,62.0
+45-54,B,75-99K,Homeowner,1 Adult No Kids,1,0,2162,50-99K,35-54,49.5,87.0
+35-44,A,50-74K,Homeowner,1 Adult No Kids,1,0,2168,50-99K,35-54,39.5,62.0
+25-34,A,100-124K,Homeowner,2 Adults No Kids,2,0,2172,100-149K,19-34,29.5,112.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,2173,25-49K,19-34,29.5,42.0
+45-54,A,35-49K,Homeowner,2 Adults Kids,3,1,2179,25-49K,35-54,49.5,42.0
+55-64,A,100-124K,Homeowner,2 Adults Kids,3,1,2181,100-149K,55-65+,59.5,112.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,2182,50-99K,35-54,49.5,87.0
+65+,A,25-34K,Homeowner,2 Adults No Kids,2,0,2183,25-49K,55-65+,65.0,29.5
+25-34,A,50-74K,Homeowner,1 Adult No Kids,1,0,2184,50-99K,19-34,29.5,62.0
+25-34,A,125-149K,Homeowner,2 Adults Kids,4,2,2185,100-149K,19-34,29.5,137.0
+35-44,A,25-34K,Homeowner,1 Adult No Kids,1,0,2186,25-49K,35-54,39.5,29.5
+65+,B,35-49K,Homeowner,2 Adults No Kids,2,0,2188,25-49K,55-65+,65.0,42.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,4,2,2190,50-99K,35-54,39.5,62.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,2193,50-99K,19-34,29.5,62.0
+55-64,B,25-34K,Homeowner,1 Adult No Kids,1,0,2194,25-49K,55-65+,59.5,29.5
+35-44,B,25-34K,Homeowner,1 Adult No Kids,1,0,2198,25-49K,35-54,39.5,29.5
+19-24,A,50-74K,Homeowner,2 Adults Kids,3,1,2199,50-99K,19-34,21.5,62.0
+45-54,A,Under 15K,Homeowner,1 Adult No Kids,1,0,2200,<25K,35-54,49.5,15.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2203,50-99K,35-54,49.5,62.0
+35-44,B,50-74K,Homeowner,1 Adult Kids,3,2,2208,50-99K,35-54,39.5,62.0
+25-34,A,35-49K,Renter,2 Adults Kids,5,3,2209,25-49K,19-34,29.5,42.0
+35-44,B,15-24K,Homeowner,1 Adult No Kids,1,0,2217,<25K,35-54,39.5,19.5
+65+,B,35-49K,Homeowner,1 Adult No Kids,1,0,2221,25-49K,55-65+,65.0,42.0
+19-24,B,250K+,Homeowner,1 Adult No Kids,1,0,2224,150K+,19-34,21.5,250.0
+35-44,A,200-249K,Homeowner,2 Adults No Kids,2,0,2231,150K+,35-54,39.5,224.5
+25-34,B,150-174K,Homeowner,1 Adult No Kids,1,0,2233,150K+,19-34,29.5,162.0
+65+,A,Under 15K,Homeowner,2 Adults No Kids,2,0,2234,<25K,55-65+,65.0,15.0
+45-54,A,175-199K,Homeowner,2 Adults Kids,3,1,2235,150K+,35-54,49.5,187.0
+45-54,A,50-74K,Homeowner,1 Adult No Kids,1,0,2237,50-99K,35-54,49.5,62.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2243,50-99K,35-54,49.5,62.0
+35-44,B,75-99K,Homeowner,1 Adult No Kids,1,0,2250,50-99K,35-54,39.5,87.0
+45-54,A,50-74K,Homeowner,2 Adults Kids,4,2,2252,50-99K,35-54,49.5,62.0
+19-24,A,35-49K,Homeowner,1 Adult No Kids,1,0,2254,25-49K,19-34,21.5,42.0
+45-54,A,25-34K,Homeowner,1 Adult No Kids,1,0,2260,25-49K,35-54,49.5,29.5
+45-54,A,250K+,Homeowner,2 Adults No Kids,2,0,2264,150K+,35-54,49.5,250.0
+25-34,B,35-49K,Homeowner,1 Adult No Kids,1,0,2266,25-49K,19-34,29.5,42.0
+55-64,A,35-49K,Homeowner,2 Adults No Kids,2,0,2269,25-49K,55-65+,59.5,42.0
+65+,A,25-34K,Homeowner,2 Adults No Kids,2,0,2272,25-49K,55-65+,65.0,29.5
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,2279,50-99K,19-34,29.5,62.0
+35-44,A,15-24K,Homeowner,2 Adults Kids,3,1,2280,<25K,35-54,39.5,19.5
+55-64,B,175-199K,Homeowner,1 Adult No Kids,1,0,2282,150K+,55-65+,59.5,187.0
+45-54,A,250K+,Homeowner,2 Adults No Kids,2,0,2284,150K+,35-54,49.5,250.0
+45-54,A,35-49K,Renter,2 Adults Kids,5,3,2292,25-49K,35-54,49.5,42.0
+45-54,B,25-34K,Renter,2 Adults Kids,4,2,2294,25-49K,35-54,49.5,29.5
+35-44,B,35-49K,Renter,1 Adult No Kids,1,0,2295,25-49K,35-54,39.5,42.0
+35-44,A,125-149K,Homeowner,2 Adults No Kids,2,0,2296,100-149K,35-54,39.5,137.0
+65+,A,50-74K,Probable Renter,1 Adult No Kids,2,0,2298,50-99K,55-65+,65.0,62.0
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2300,50-99K,35-54,49.5,62.0
+35-44,A,35-49K,Homeowner,1 Adult Kids,3,1,2302,25-49K,35-54,39.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2305,50-99K,35-54,49.5,62.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,2307,50-99K,35-54,49.5,87.0
+45-54,A,250K+,Homeowner,2 Adults No Kids,2,0,2312,150K+,35-54,49.5,250.0
+45-54,A,125-149K,Homeowner,2 Adults No Kids,2,0,2314,100-149K,35-54,49.5,137.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,5,3,2317,50-99K,35-54,39.5,62.0
+19-24,A,Under 15K,Homeowner,1 Adult No Kids,1,0,2318,<25K,19-34,21.5,15.0
+45-54,A,175-199K,Homeowner,1 Adult No Kids,1,0,2322,150K+,35-54,49.5,187.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,2324,50-99K,35-54,39.5,62.0
+45-54,A,250K+,Homeowner,2 Adults No Kids,2,0,2328,150K+,35-54,49.5,250.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2330,50-99K,35-54,49.5,62.0
+35-44,A,35-49K,Homeowner,2 Adults Kids,5,3,2331,25-49K,35-54,39.5,42.0
+35-44,B,50-74K,Homeowner,1 Adult No Kids,1,0,2334,50-99K,35-54,39.5,62.0
+65+,B,Under 15K,Homeowner,1 Adult Kids,3,2,2337,<25K,55-65+,65.0,15.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2341,50-99K,35-54,49.5,62.0
+55-64,B,100-124K,Homeowner,1 Adult No Kids,1,0,2342,100-149K,55-65+,59.5,112.0
+19-24,A,50-74K,Homeowner,1 Adult No Kids,1,0,2343,50-99K,19-34,21.5,62.0
+45-54,A,35-49K,Homeowner,2 Adults No Kids,2,0,2347,25-49K,35-54,49.5,42.0
+45-54,A,75-99K,Homeowner,2 Adults No Kids,2,0,2351,50-99K,35-54,49.5,87.0
+45-54,A,25-34K,Homeowner,2 Adults No Kids,2,0,2359,25-49K,35-54,49.5,29.5
+25-34,B,50-74K,Homeowner,1 Adult No Kids,1,0,2360,50-99K,19-34,29.5,62.0
+25-34,A,35-49K,Homeowner,2 Adults No Kids,2,0,2361,25-49K,19-34,29.5,42.0
+45-54,A,25-34K,Renter,2 Adults No Kids,2,0,2364,25-49K,35-54,49.5,29.5
+45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,0,2367,<25K,35-54,49.5,15.0
+25-34,A,Under 15K,Homeowner,2 Adults No Kids,2,0,2370,<25K,19-34,29.5,15.0
+45-54,A,150-174K,Homeowner,2 Adults No Kids,2,0,2374,150K+,35-54,49.5,162.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,2376,25-49K,35-54,49.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults Kids,5,3,2378,50-99K,19-34,29.5,62.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2380,50-99K,35-54,49.5,62.0
+25-34,A,50-74K,Homeowner,1 Adult No Kids,2,0,2390,50-99K,19-34,29.5,62.0
+35-44,A,75-99K,Homeowner,1 Adult No Kids,1,0,2393,50-99K,35-54,39.5,87.0
+65+,B,125-149K,Homeowner,2 Adults No Kids,2,0,2397,100-149K,55-65+,65.0,137.0
+35-44,A,25-34K,Homeowner,2 Adults Kids,3,1,2400,25-49K,35-54,39.5,29.5
+25-34,A,15-24K,Homeowner,1 Adult No Kids,1,0,2405,<25K,19-34,29.5,19.5
+25-34,A,125-149K,Homeowner,2 Adults Kids,3,1,2406,100-149K,19-34,29.5,137.0
+45-54,A,100-124K,Homeowner,2 Adults No Kids,2,0,2407,100-149K,35-54,49.5,112.0
+65+,A,Under 15K,Homeowner,2 Adults No Kids,2,0,2411,<25K,55-65+,65.0,15.0
+45-54,A,15-24K,Homeowner,2 Adults Kids,3,1,2420,<25K,35-54,49.5,19.5
+45-54,A,150-174K,Homeowner,2 Adults Kids,5,3,2421,150K+,35-54,49.5,162.0
+19-24,A,Under 15K,Probable Renter,1 Adult No Kids,1,0,2426,<25K,19-34,21.5,15.0
+35-44,A,50-74K,Homeowner,2 Adults Kids,3,1,2427,50-99K,35-54,39.5,62.0
+19-24,A,35-49K,Homeowner,1 Adult No Kids,1,0,2432,25-49K,19-34,21.5,42.0
+45-54,B,50-74K,Homeowner,1 Adult Kids,5,3,2435,50-99K,35-54,49.5,62.0
+35-44,A,125-149K,Homeowner,2 Adults Kids,5,3,2437,100-149K,35-54,39.5,137.0
+45-54,B,35-49K,Homeowner,1 Adult No Kids,1,0,2445,25-49K,35-54,49.5,42.0
+35-44,A,125-149K,Homeowner,2 Adults No Kids,2,0,2446,100-149K,35-54,39.5,137.0
+35-44,A,25-34K,Homeowner,2 Adults No Kids,2,0,2447,25-49K,35-54,39.5,29.5
+45-54,A,50-74K,Homeowner,2 Adults No Kids,2,0,2448,50-99K,35-54,49.5,62.0
+35-44,A,175-199K,Homeowner,2 Adults Kids,5,3,2449,150K+,35-54,39.5,187.0
+45-54,B,50-74K,Homeowner,1 Adult No Kids,1,0,2453,50-99K,35-54,49.5,62.0
+45-54,B,25-34K,Homeowner,2 Adults No Kids,2,0,2455,25-49K,35-54,49.5,29.5
+65+,A,15-24K,Homeowner,1 Adult No Kids,2,0,2465,<25K,55-65+,65.0,19.5
+35-44,A,75-99K,Homeowner,2 Adults Kids,3,1,2467,50-99K,35-54,39.5,87.0
+25-34,A,150-174K,Homeowner,2 Adults No Kids,2,0,2479,150K+,19-34,29.5,162.0
+45-54,B,75-99K,Homeowner,1 Adult No Kids,1,0,2483,50-99K,35-54,49.5,87.0
+35-44,B,25-34K,Homeowner,1 Adult No Kids,1,0,2486,25-49K,35-54,39.5,29.5
+45-54,B,35-49K,Homeowner,1 Adult No Kids,1,0,2488,25-49K,35-54,49.5,42.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,2489,50-99K,35-54,39.5,62.0
+35-44,A,50-74K,Homeowner,2 Adults No Kids,2,0,2494,50-99K,35-54,39.5,62.0
+45-54,A,75-99K,Homeowner,2 Adults Kids,3,1,2496,50-99K,35-54,49.5,87.0
+45-54,A,35-49K,Homeowner,1 Adult No Kids,1,0,2497,25-49K,35-54,49.5,42.0
+25-34,A,50-74K,Homeowner,2 Adults No Kids,2,0,2498,50-99K,19-34,29.5,62.0
+25-34,A,Under 15K,Homeowner,2 Adults Kids,3,1,2499,<25K,19-34,29.5,15.0
