@@ -1,1 +1,1 @@
-streamlit run Src/Streamlit/1\ 👋\ Dataset\ Presentation.py
+streamlit run Src/Streamlit/1_👋_Dataset_Presentation.py

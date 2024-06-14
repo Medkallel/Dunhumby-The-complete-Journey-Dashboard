@@ -24,7 +24,7 @@ st.markdown(
 st.divider()
 
 st.markdown("## Dataset Contents")
-st.caption("Note: Colored Nodes represent the datasets used in this analysis")
+st.caption("Note: Colored Nodes represent the datasets used in this analysis <br/> You can move and zoom in/out in the graph below",unsafe_allow_html=True)
 display_dataset_graph()
 down_doc, down_data, _ = st.columns([1, 1, 3])
 with down_doc:
