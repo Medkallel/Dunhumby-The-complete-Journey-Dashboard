@@ -38,14 +38,12 @@ with down_doc:
             type="primary",
         )
 st.divider()
-'''
-with down_data:
-    with open(DATA_ARCHIVE_PATH, "rb") as data_file:
-        st.download_button(
-            "Download Dataset",
-            data=data_file.read(),
-            file_name="dunnhumby-The_Complete _Journey_Dataset.zip",
-            mime="application/zip",
-        )
-'''
 
+#with down_data:
+#    with open(DATA_ARCHIVE_PATH, "rb") as data_file:
+#        st.download_button(
+#            "Download Dataset",
+#            data=data_file.read(),
+#            file_name="dunnhumby-The_Complete _Journey_Dataset.zip",
+#            mime="application/zip",
+#        )
