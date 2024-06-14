@@ -3,8 +3,7 @@ import streamlit as st
 DATASET_INFO_PATH = "./Doc/dataset_description.json"
 BANNER_PATH = "./Assets/banner.jpg"
 DOC_PATH = "./Doc/dunnhumby - The Complete Journey User Guide.pdf"
-#DATA_ARCHIVE_PATH = "./Data/archive.zip"
-DATA_ARCHIVE_PATH = "https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey"
+DATA_ARCHIVE_PATH = "./Data/archive.zip"
 DATASET_PATH = "./Data/"
 NOTEBOOK_PATH = "./Src/Data_Exploration-Preprocessing.ipynb"
 CLEAN_DATA_PATH = "./Export/"
@@ -37,6 +36,7 @@ def page_init():
         initial_sidebar_state="expanded",
     )
     st.sidebar.info("Select a Page from Above")
+    '''
     st.sidebar.download_button(
         "Download Dataset",
         data=open(DATA_ARCHIVE_PATH, "rb").read(),
@@ -44,6 +44,7 @@ def page_init():
         mime="application/zip",
         use_container_width=True,
     )
+    '''
     st.sidebar.download_button(
         "Download Dataset Documentation",
         data=open(DOC_PATH, "rb").read(),

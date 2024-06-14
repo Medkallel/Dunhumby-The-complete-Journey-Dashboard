@@ -37,6 +37,7 @@ with down_doc:
             mime="application/pdf",
             type="primary",
         )
+'''
 with down_data:
     with open(DATA_ARCHIVE_PATH, "rb") as data_file:
         st.download_button(
@@ -45,5 +46,6 @@ with down_data:
             file_name="dunnhumby-The_Complete _Journey_Dataset.zip",
             mime="application/zip",
         )
+'''
 
 st.divider()
