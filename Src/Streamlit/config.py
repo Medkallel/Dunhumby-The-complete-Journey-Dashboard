@@ -23,7 +23,7 @@ footer_note = """
     }
     </style>
     <div class="footer">
-    <p>By Mohamed Kallel & Maud Mayousse-Aumiphin</p>
+    <p>By Maud Mayousse-Aumiphin & Mohamed Kallel</p>
     </div>
     """
 
