@@ -7,6 +7,7 @@ from config import *
 
 
 def display_dataset_graph():
+    # Mapping dataset IDs to their names
     dataset_ids = {
         "1": "HH_DEMOGRAPHIC",
         "2": "TRANSACTION_DATA",
@@ -18,19 +19,20 @@ def display_dataset_graph():
         "8": "CAMPAIGN_DESC",
     }
 
-    # Load JSON data
+    # Load Dataset JSON data
     with open(DATASET_INFO_PATH, "r") as file:
         data = json.load(file)
 
     # Extract datasets information
     datasets = data["datasets"]
 
+    # Define nodes for the dataset graph visualization
     nodes = [
         StreamlitFlowNode(
             id="1",
             pos=(100, 50),
             data={"label": "HH_DEMOGRAPHIC"},
-            node_type="input",
+            node_type="input",  # Node type to determine the form of the node
             source_position="right",
             draggable=False,
             style={"background-color": "#0271a5", "color": "white"},
@@ -101,11 +103,12 @@ def display_dataset_graph():
         ),
     ]
 
+    # Define edges to represent relationships between the nodes
     edges = [
         StreamlitFlowEdge(
-            "1-2",
-            "1",
-            "2",
+            "1-2",  # Edge ID
+            "1",  # Source Node ID
+            "2",  # Target Node ID
             animated=True,
         ),  # HH_DEMOGRAPHIC -> TRANSACTION_DATA
         StreamlitFlowEdge(
@@ -139,7 +142,7 @@ def display_dataset_graph():
     col1, col2 = st.columns([3, 4])
 
     with col1:
-        # Implement the flow
+        # Display the graph and get the selected node ID
         selected_id = streamlit_flow(
             "ret_val_flow",
             nodes,
@@ -152,16 +155,20 @@ def display_dataset_graph():
     with col2:
         # Display a dataframe based on the clicked node
         if selected_id:
+            # Get the selected dataset ID
             selected_id = dataset_ids[selected_id]
+            # Get the dataset information
             dataset_info = datasets[selected_id]
-
+            # Display dataset information
             st.markdown(f"### {selected_id}")
             st.markdown(dataset_info["description"])
 
             columns_info = dataset_info["columns"]
+            # Get Column information from Json
             df = pd.read_json(json.dumps(columns_info)).rename(
                 columns={"name": "Name", "type": "Type", "description": "Description"}
             )
+            # Display dataset columns information
             st.markdown(df.style.hide(axis="index").to_html(), unsafe_allow_html=True)
         else:
             st.info("Please select a dataset to view its contents.")
