@@ -1,0 +1,4 @@
+# This file is for streamlit configuration
+[runner]
+# This disabled streamlit auto printing text so that we can add docstrings to our functions
+magicEnabled = false 
