@@ -129,7 +129,7 @@ st.write(
 col_wordcloud, col_stat_presence_products = st.columns(2)
 with col_wordcloud:
     # Display the word cloud of how much products are sold in each department
-    st.pyplot(graph_word_cloud(df_trnsct_prod, df_products))
+    st.pyplot(graph_word_cloud(df_trnsct_prod))
 with col_stat_presence_products:
     # Display the value counts of product departments and how much products are sold in each department
     st.dataframe(
@@ -216,10 +216,10 @@ with col_price:
     product_range = st.slider(
         "Select the range of product price to explore",
         sales_by_product["PRODUCT_SHELF_PRICE"].min(),
-        sales_by_product["PRODUCT_SHELF_PRICE"].max() * 2,
+        sales_by_product["PRODUCT_SHELF_PRICE"].max() * 1.5,
         (
             sales_by_product["PRODUCT_SHELF_PRICE"].min(),
-            sales_by_product["PRODUCT_SHELF_PRICE"].max() * 2,
+            sales_by_product["PRODUCT_SHELF_PRICE"].max() * 1.5,
         ),
     )
 
