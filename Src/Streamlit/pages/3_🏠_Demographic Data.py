@@ -230,6 +230,7 @@ st.write(
     f"##### The dataset contains the demographic information of a sample of {len(df_demographic)} households from the 2500 the study was conducted on"
 )
 st.write("- ##### Demographic Descriptive Statistics: ")
+st.write("###### We explore several statistics around the demographic distribution and characteristics of the sample of households")
 st.dataframe(
     df_demographic.describe()[
         ["HOUSEHOLD_SIZE_DESC", "KID_CATEGORY_DESC", "MEAN_AGE", "MEAN_INCOME"]

@@ -13,9 +13,9 @@ st.write(
 st.divider()
 st.subheader("Missing Values")
 st.info(
-    "Several datasets have missing values, those missing values however are not present as NaN... They are present as empty strings or strings with the values 'U' or 'UNKNOWN'"
+    "Several datasets have missing values, those missing values however are not present as NaN... They are present as empty strings or strings with the values 'U' or 'UNKNOWN'",
 )
-st.markdown("- ##### The Transaction Data has no missing values")
+st.markdown("- ##### The Transaction Data has no missing values but has missing days.")
 df_product_missing = (
     pd.read_csv(DATASET_PATH + "product.csv")
     .replace([" ", "NO COMMODITY DESCRIPTION", "NO SUBCOMMODITY DESCRIPTION"], pd.NA)
@@ -44,6 +44,9 @@ st.code(
     f"[{', '.join(df_hh_demographic_missing[df_hh_demographic_missing>0].index.tolist())}]"
 )
 st.dataframe(df_hh_demographic_missing)
+st.write(
+    "- ##### Other missing data was also found when generating the daily sales data and other metrics, we will explore how we handled this in the notebook."
+)
 st.info("Check the notebook to see how the missing data was handled")
 st.download_button(
     "Download Notebook",
