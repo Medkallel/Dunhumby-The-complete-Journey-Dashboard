@@ -46,7 +46,7 @@
 
 ---
 ## Demo
-##### The app demo is available on the following link: **[Demo Link](URL)**
+##### The app demo is available on the following link: **[Demo Link][(https://dunhumby-the-complete-journey-dashboard.streamlit.app/)**
 ---
 ## Installation
 
