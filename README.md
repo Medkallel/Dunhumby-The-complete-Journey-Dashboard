@@ -3,10 +3,11 @@
 ## Table of Contents
 
 -   [Description](#description)
--   [Installation](#installation)
--   [Usage](#usage)
     -   [App Overview](#app-overview)
     -   [App Screenshots](#app-screenshots)
+-   [Demo](#demo)
+-   [Installation](#installation)
+-   [Usage](#usage)
 -   [Project Structure](#project-structure)
 -   [Contact me](#contact)
 -   [Licence](#licence)
@@ -43,7 +44,9 @@
 |:----------:|:----------:|:----------:|
 | ![General Sales](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/4f6788e4-6e9e-4d78-9fca-2769589e77b5)|![Sales By Demographic](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/58acb585-e298-48f9-ba40-a699b71e119e)| ![Customer Acqiosition](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/09d32935-8b6e-45d5-813b-0407453b71bd)|
 
-
+---
+## Demo
+##### The app demo is available on the following link: **[Demo Link](URL)**
 ---
 ## Installation
 
