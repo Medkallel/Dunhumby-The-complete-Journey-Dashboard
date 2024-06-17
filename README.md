@@ -1,7 +1,5 @@
 # 📈 Dunhumby The complete Journey Dashboard
 
-![Banner](Assets/banner.jpg)
-
 ## Table of Contents
 
 -   [Description](#description)
@@ -21,7 +19,7 @@
         - 🏠 Demographic Data
         - 📦 Product_Data
         - 🧮 Sales Data  
-        
+
 ---
 ## Installation
 
