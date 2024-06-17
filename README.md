@@ -24,7 +24,7 @@
 - #### App Screenshots
     | Dataset Presentation | Data Exploration |
     |:--------------------:|:----------------:|
-    | ![Dataset Presentation](Assets/dataset_presentation.png) | ![Data Exploration](Assets/data_exploration.png) |
+    | ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/950d54e1-88f1-471d-9819-8d6b4c09c4b0)| ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/e6ce60cb-7522-4b50-99bf-9ca9f2a3fe04)|
 
     | Demographic Data | Product Data | Sales Data |
     |:----------------:|:------------:|:----------:|
