@@ -1,5 +1,5 @@
 # 📈 Dunhumby The complete Journey Dashboard
-
+![banner](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/1e6b69ab-9df3-453d-96c0-e05aeb1c6ce6)
 ## Table of Contents
 
 -   [Description](#description)
