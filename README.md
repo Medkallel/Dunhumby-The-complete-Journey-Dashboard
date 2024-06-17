@@ -3,7 +3,6 @@
 ## Table of Contents
 
 -   [Description](#description)
-    -   [App Screenshots](#app-screenshots)
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Project Structure](#project-structure)
@@ -20,14 +19,6 @@
         - 🏠 Demographic Data
         - 📦 Product_Data
         - 🧮 Sales Data  
-- #### App Screenshots
-    | Dataset Presentation | Data Exploration |
-    |:--------------------:|:----------------:|
-    | ![Dataset Presentation](Assets/dataset_presentation.png) | ![Data Exploration](Assets/data_exploration.png) |
-
-    | Demographic Data | Product Data | Sales Data |
-    |:----------------:|:------------:|:----------:|
-    | ![Demographic Data](Assets/demographic_data.png) | ![Product Data](Assets/product_data.png) | ![Sales Data](Assets/sales_data.png) |
 
 ---
 ## Installation
