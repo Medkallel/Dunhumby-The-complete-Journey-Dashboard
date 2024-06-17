@@ -122,14 +122,14 @@ celerybeat.pid
 *.sage.py
 
 #Data/LFS
-Data/archive.zip
+#Data/archive.zip
 Data/campaign_desc.csv
 Data/campaign_table.csv
 Data/causal_data.csv
 Data/coupon_redempt.csv
 Data/coupon.csv
-Data/transaction_data.csv
-Export/transaction_data_cleaned.csv
+#Data/transaction_data.csv
+#Export/transaction_data_cleaned.csv
 
 # Environments
 .env
