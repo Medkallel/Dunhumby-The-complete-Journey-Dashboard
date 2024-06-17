@@ -83,15 +83,15 @@ streamlit run Src/Streamlit/1_👋_Dataset_Presentation.py
 Here's a visual representation of the structure:
 📦Project
  ┣ 📁.streamlit/
- ┃ ┗ 📜config.toml
+ ┃ ┗ 📄config.toml
  ┣ 📁Assets/
  ┃ ┣ 🖼️ banner.jpg
  ┃ ┗ 🖼️ WordCloudMask.png
  ┣ 📁Data/
  ┣ 📁Export/
  ┣ 📁Doc/
- ┃ ┣ 📜dataset_description.json
- ┃ ┗ 📜dunnhumby - The Complete Journey User Guide.pdf
+ ┃ ┣ 📄dataset_description.json
+ ┃ ┗ 📄dunnhumby - The Complete Journey User Guide.pdf
  ┣ 📁Src/
  ┃ ┣ 🐍Data_Exploration-Preprocessing.ipynb
  ┃ ┗ 📁Streamlit/
@@ -103,8 +103,8 @@ Here's a visual representation of the structure:
  ┃    ┣ 🐍3_🏠_Demographic Data.py
  ┃    ┣ 🐍4_📦_Product_Data.py
  ┃    ┗ 🐍5_🧮_Sales_Data.py
- ┣ 📜README.md
- ┗ 📜requirements.txt
+ ┣ 📄README.md
+ ┗ 📄requirements.txt
 ```
 ---
 ## 📫 Contact me
