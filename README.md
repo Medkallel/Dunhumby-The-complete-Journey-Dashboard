@@ -28,7 +28,13 @@
 
     | Demographic Data | Product Data | Sales Data |
     |:----------------:|:------------:|:----------:|
-    | ![Demographic Data](Assets/demographic_data.png) | ![Product Data](Assets/product_data.png) | ![Sales Data](Assets/sales_data.png) |
+    |![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/ce6927c5-710a-4c4c-a0c9-7cd244ec3ba7)
+ |![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/17c9fad9-f331-404a-9c34-69a6646565a7) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/3f978e30-00d8-463e-8aae-e8f379cbe2c0)
+
+| ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/80c1c376-f90a-440c-9217-05e4cc9d48a7) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/a67d55e3-2547-4f51-983a-681b0c85457d) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/5dd9763e-5e2f-4b1c-ae68-b3aa9b5aeca9)
+
+
+ |
 
 
 ---
