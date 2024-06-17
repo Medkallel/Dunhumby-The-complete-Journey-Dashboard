@@ -37,9 +37,7 @@
 
 | Product Presence |Product Sales |
 |:------------:|:----------:|
-| ![Product Presence](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/55080946-cbbf-4f2f-82de-8d4dcfc9d687)
-|![Product Sales](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/d546cf6d-075b-44d0-9e8b-8e63f773cb6a)
- |
+| ![Product Presence](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/55080946-cbbf-4f2f-82de-8d4dcfc9d687)|![Product Sales](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/d546cf6d-075b-44d0-9e8b-8e63f773cb6a)|
 
 | General Sales | Sales By Demographic  | Customer Acqiosition  |
 |:----------:|:----------:|:----------:|
