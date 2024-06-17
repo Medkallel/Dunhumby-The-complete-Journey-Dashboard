@@ -5,6 +5,8 @@
 -   [Description](#description)
 -   [Installation](#installation)
 -   [Usage](#usage)
+    -   [App Overview](#app-overview)
+    -   [App Screenshots](#app-screenshots)
 -   [Project Structure](#project-structure)
 -   [Contact me](#contact)
 -   [Licence](#licence)
@@ -19,6 +21,15 @@
         - 🏠 Demographic Data
         - 📦 Product_Data
         - 🧮 Sales Data  
+- #### App Screenshots
+    | Dataset Presentation | Data Exploration |
+    |:--------------------:|:----------------:|
+    | ![Dataset Presentation](Assets/dataset_presentation.png) | ![Data Exploration](Assets/data_exploration.png) |
+
+    | Demographic Data | Product Data | Sales Data |
+    |:----------------:|:------------:|:----------:|
+    | ![Demographic Data](Assets/demographic_data.png) | ![Product Data](Assets/product_data.png) | ![Sales Data](Assets/sales_data.png) |
+
 
 ---
 ## Installation
