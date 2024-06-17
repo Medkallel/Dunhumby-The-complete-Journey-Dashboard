@@ -22,19 +22,26 @@
         - 📦 Product_Data
         - 🧮 Sales Data  
 - #### App Screenshots
-    | Dataset Presentation | Data Exploration |
-    |:--------------------:|:----------------:|
-    | ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/950d54e1-88f1-471d-9819-8d6b4c09c4b0)| ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/e6ce60cb-7522-4b50-99bf-9ca9f2a3fe04)|
 
-    | Demographic Data | Product Data | Sales Data |
-    |:----------------:|:------------:|:----------:|
-    |![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/ce6927c5-710a-4c4c-a0c9-7cd244ec3ba7)
- |![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/17c9fad9-f331-404a-9c34-69a6646565a7) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/3f978e30-00d8-463e-8aae-e8f379cbe2c0)
+|Dataset Presentation |
+|:--------------------:|
+| ![Dataset Presentation](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/950d54e1-88f1-471d-9819-8d6b4c09c4b0)|
 
-| ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/80c1c376-f90a-440c-9217-05e4cc9d48a7) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/a67d55e3-2547-4f51-983a-681b0c85457d) ![image](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/5dd9763e-5e2f-4b1c-ae68-b3aa9b5aeca9)
+| Data Exploration|
+|:----------------:|
+| ![Data Exploration](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/e6ce60cb-7522-4b50-99bf-9ca9f2a3fe04)|
 
+|Demographic Data |
+|:----------------:|
+| ![Demographic Data](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/ce6927c5-710a-4c4c-a0c9-7cd244ec3ba7)|
 
- |
+| Product Data |Product Data |
+|:------------:|:----------:|
+| ![Product Data](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/17c9fad9-f331-404a-9c34-69a6646565a7)| ![Product Data](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/3f978e30-00d8-463e-8aae-e8f379cbe2c0) |
+
+| Sales Data | Sales Data  | Sales Data  |
+|:----------:|:----------:|:----------:|
+| ![Sales Data 2](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/80c1c376-f90a-440c-9217-05e4cc9d48a7) | ![Sales Data 3](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/a67d55e3-2547-4f51-983a-681b0c85457d) | ![Sales Data 4](https://github.com/Med-Kallel/Dunhumby-The-complete-Journey-Dashboard/assets/173089953/5dd9763e-5e2f-4b1c-ae68-b3aa9b5aeca9) |
 
 
 ---
