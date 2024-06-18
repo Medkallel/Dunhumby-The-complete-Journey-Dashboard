@@ -51,7 +51,7 @@ st.dataframe(df_product_missing)  # Display the missing values in a dataframe
 df_hh_demographic_missing = (
     pd.read_csv(DATASET_PATH + "hh_demographic.csv")
     .replace(
-        [r"\bUnknown\b|\bUnknown\w*|\w*Unknown\b", "U"], pd.NA, regex=True
+        [r"\bUnknown\b|\bUnknown\w*|\w*Unknown\b", "^U$"], pd.NA, regex=True
     )  # Replace 'U' and all strings having 'Unknwown' values with NA using regex
     .isna()
     .sum()
