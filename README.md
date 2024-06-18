@@ -58,7 +58,7 @@
 ---
 ## Demo
 ##### The app demo is hosted & available on the following link: [Demo Link](https://dunhumby-the-complete-journey-dashboard.streamlit.app/)
-[![Streamlit App](https://dunhumby-the-complete-journey-dashboard.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dunhumby-the-complete-journey-dashboard.streamlit.app/)
 ---
 ## Installation
 
