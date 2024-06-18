@@ -120,4 +120,6 @@ Here's a visual representation of the structure:
 
 ---
 ## License
-This project is under the **MIT License**. Check the license file for more info.
+This project is under the **CC BY-NC 4.0**. Check the licence file for more info.
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
