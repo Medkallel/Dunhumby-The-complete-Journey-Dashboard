@@ -61,9 +61,9 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 ```sh
 # Clone the repository
-git clone https://github.com/Medkallel/The-complete-journey-Data-Management.git
+git clone https://github.com/Medkallel/Dunhumby-The-complete-Journey-Dashboard
 # Navigate into the directory
-cd The-complete-journey-Data-Management
+cd Dunhumby-The-complete-Journey-Dashboard
 ```
 2. Install the required dependencies:
 ```
