@@ -119,5 +119,5 @@ Here's a visual representation of the structure:
 </p>
 
 ---
-## Licence
-This project is under the **MIT Licence**. Check the licence file for more info.
+## License
+This project is under the **MIT License**. Check the license file for more info.
