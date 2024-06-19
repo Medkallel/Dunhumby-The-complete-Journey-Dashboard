@@ -99,8 +99,8 @@ Here's a visual representation of the structure:
  ┣ 📁Assets/
  ┃ ┣ 🖼️ banner.jpg
  ┃ ┗ 🖼️ WordCloudMask.png
- ┣ 📁Data/
- ┣ 📁Export/
+ ┣ 📁Data/ Contains the dataset csv files
+ ┣ 📁Export/ Contains the cleaned dataset files
  ┣ 📁Doc/
  ┃ ┣ 📄dataset_description.json
  ┃ ┗ 📄dunnhumby - The Complete Journey User Guide.pdf
