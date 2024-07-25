@@ -5,6 +5,7 @@ env:
   DOCKER_USER: ${{secrets.DOCKER_USER}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
   REPO_NAME: ${{secrets.REPO_NAME}}
+  GIT_REPO_NAME: ${{secrets.GIT_REPO_NAME}}
   GIT_USER: ${{secrets.GIT_USER}}
   GIT_TOKEN: ${{secrets.GIT_TOKEN}}
 
