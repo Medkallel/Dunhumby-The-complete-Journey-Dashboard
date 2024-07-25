@@ -68,20 +68,23 @@
 To pull the Docker image from Docker Hub, run the following command:
 ```sh
 # Pull the docker image
-$ docker pull your-dockerhub-username/dunhumby-dashboard:latest
+$ docker pull medkallel/dunhumby-the-complete-journey-dashboard:latest
+
+# Or if you downloaded the .tar image
+$ docker load -i dunhumby-the-complete-journey-dashboard.tar
 ```
 #### 2. Building the Docker Image
 If you prefer to build the Docker image locally, navigate to the project directory and run:
 
 ```sh
 # Build the docker image
-$ docker build -t dunhumby-dashboard .
+$ docker build -t dunhumby-the-complete-journey-dashboard .
 ```
 #### 3. Running the Docker Container
 To run the Docker container, use the following command:
 ```sh
 # Run the docker container
-$ docker run -p 8501:8501 dunhumby-dashboard
+$ docker run -p 8501:8501 dunhumby-the-complete-journey-dashboard
 ```
 > [!TIP] 
 > You can access the app on another device by following the link: ```http://<server-ip>:8501```

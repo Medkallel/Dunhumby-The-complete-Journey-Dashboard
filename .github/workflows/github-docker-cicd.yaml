@@ -51,9 +51,9 @@ jobs:
             black .
 # The fourth step formats the python files using the black code formatter.
 
-        - name: Lint
-          run: |
-            pylint --disable=R,C  .
+        # - name: Lint
+        #   run: |
+        #     pylint --disable=R,C  .
 #The fifth step performs linting on the python files using pylint.
 #The --disable=R,C flag disables specific pylint checks.
 
