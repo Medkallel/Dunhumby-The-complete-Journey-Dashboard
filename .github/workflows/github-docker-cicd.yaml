@@ -48,13 +48,13 @@ jobs:
 
         - name: Format
           run: |
-            black app.py
-# The fourth step formats the app.py file using the black code formatter.
+            black .
+# The fourth step formats the python files using the black code formatter.
 
         - name: Lint
           run: |
-            pylint --disable=R,C  app.py
-#The fifth step performs linting on the app.py file using pylint.
+            pylint --disable=R,C  .
+#The fifth step performs linting on the python files using pylint.
 #The --disable=R,C flag disables specific pylint checks.
 
 #        - name: Test
