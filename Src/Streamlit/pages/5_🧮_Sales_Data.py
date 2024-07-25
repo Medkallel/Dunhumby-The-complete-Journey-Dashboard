@@ -272,7 +272,7 @@ with col_filter:
             "Family Composition",
             "Number of Kids",
         ],
-        index=0, # Default selection index
+        index=0,  # Default selection index
     )
     # Dictionary to map filter selections to corresponding columns in the dataset
     columns = {
@@ -336,7 +336,9 @@ df_customer_acquisition_description["Date_of_first_purchase"] = (
     )
 )
 
-df_customer_acquisition_description["Date_of_first_purchase"].iloc[-1] = "-" # Last value is inapplicable
+df_customer_acquisition_description["Date_of_first_purchase"].iloc[
+    -1
+] = "-"  # Last value is inapplicable
 # Create columns for figure and statistical summary display
 col_fig, col_stat = st.columns([2, 1])
 

@@ -135,8 +135,9 @@ with col_stat_presence_products:
     st.dataframe(
         df_trnsct_prod["DEPARTMENT"]
         .replace(
-            df_trnsct_prod["DEPARTMENT"].value_counts().index[11], pd.NA  # Exclude the 11th department as it is empty
-        ) 
+            df_trnsct_prod["DEPARTMENT"].value_counts().index[11],
+            pd.NA,  # Exclude the 11th department as it is empty
+        )
         .value_counts(),
         height=700,
         use_container_width=True,
@@ -155,8 +156,12 @@ with col_department:
     sales_by_department = (
         df_trnsct_prod.groupby("DEPARTMENT")["SALES_VALUE"].sum().reset_index()
     )
-    top_10_departments = sales_by_department.nlargest(10, "SALES_VALUE") # Get the top 10 elements with the highest sales value
-    st.dataframe(top_10_departments, use_container_width=True, hide_index=True) # Display the top 10 elements
+    top_10_departments = sales_by_department.nlargest(
+        10, "SALES_VALUE"
+    )  # Get the top 10 elements with the highest sales value
+    st.dataframe(
+        top_10_departments, use_container_width=True, hide_index=True
+    )  # Display the top 10 elements
 
 # -- By Commodity --
 with col_commodity:
@@ -198,16 +203,19 @@ sales_by_product["PRODUCT_SHELF_PRICE"] = sales_by_product.merge(
 sales_by_product = sales_by_product[(sales_by_product["SALES_VALUE"] > 1)]
 
 # Create sliders to control the range of sales and product prices to explore
-col_sales, col_space, col_price = st.columns([10, 1, 10]) # Create columns for the sliders with a space in between
+col_sales, col_space, col_price = st.columns(
+    [10, 1, 10]
+)  # Create columns for the sliders with a space in between
 
 with col_sales:
     sales_range = st.slider(
-        "Select the range of sales value to explore", # Slider Text
-        sales_by_product["SALES_VALUE"].min(), # Minimum value of the slider
-        sales_by_product["SALES_VALUE"].max() * 2, # Maximum value of the slider set as the double maximum to allow correct vertical axis labeling
+        "Select the range of sales value to explore",  # Slider Text
+        sales_by_product["SALES_VALUE"].min(),  # Minimum value of the slider
+        sales_by_product["SALES_VALUE"].max()
+        * 2,  # Maximum value of the slider set as the double maximum to allow correct vertical axis labeling
         (
-            sales_by_product["SALES_VALUE"].min(), # Default range for the slider
-            sales_by_product["SALES_VALUE"].max() * 2, # Default range for the slider
+            sales_by_product["SALES_VALUE"].min(),  # Default range for the slider
+            sales_by_product["SALES_VALUE"].max() * 2,  # Default range for the slider
         ),
     )
 with col_space:
@@ -224,5 +232,7 @@ with col_price:
     )
 
 st.plotly_chart(
-    graph_product_sales_price(sales_by_product, np.log10(sales_range), product_range) # Display the scatter plot of product sales value vs. product shelf price
+    graph_product_sales_price(
+        sales_by_product, np.log10(sales_range), product_range
+    )  # Display the scatter plot of product sales value vs. product shelf price
 )

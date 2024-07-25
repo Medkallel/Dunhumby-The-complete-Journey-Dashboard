@@ -23,7 +23,9 @@ st.info(
 )
 
 # --Transaction Dataset section--
-st.markdown("- ##### The Transaction Data has missing values as transaction with 0 value and quantity. ")
+st.markdown(
+    "- ##### The Transaction Data has missing values as transaction with 0 value and quantity. "
+)
 
 # --Product Dataset section--
 # Load the Product dataset and calculate missing values

@@ -126,7 +126,7 @@ df_demographic = pd.read_csv(CLEAN_DATA_PATH + "hh_demographic_cleaned.csv")
 
 st.write(" ")  # Insert a space in the Streamlit app for better layout
 st.write(
-    f"##### The dataset contains the demographic information of a sample of {len(df_demographic)} households from the 2500 the study was conducted on" # Display the number of households in the dataset
+    f"##### The dataset contains the demographic information of a sample of {len(df_demographic)} households from the 2500 the study was conducted on"  # Display the number of households in the dataset
 )
 st.write("- ##### Demographic Descriptive Statistics: ")
 st.write(
