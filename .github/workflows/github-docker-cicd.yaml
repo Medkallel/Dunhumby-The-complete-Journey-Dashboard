@@ -92,4 +92,4 @@ jobs:
           docker login ghcr.io -u $GIT_USER -p $GIT_TOKEN
 
       - name: Github Container Registry
-        run: docker push ghcr.io/$GIT_USER/$REPO_NAME:${{ steps.date.outputs.date }}
+        run: docker push ghcr.io/$GIT_USER/$GIT_REPO_NAME:${{ steps.date.outputs.date }}
