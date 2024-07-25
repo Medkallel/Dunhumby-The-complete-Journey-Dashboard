@@ -73,7 +73,7 @@ jobs:
       - name: docker login
         run: | # log into docker hub account
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-  
+      
       - name: Get current date # get the date of the build
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d--%M-%S')"
@@ -83,3 +83,10 @@ jobs:
 
       - name: Docker Push
         run: docker push $DOCKER_USER/$REPO_NAME:${{ steps.date.outputs.date }}
+      
+      - name: github container registry login
+        run: | # log into github container registry
+          docker login ghcr.io -u $GIT_USER --password-stdin
+
+      - name: Github Container Registry
+        run: docker push ghcr.io/$GIT_USER/$REPO_NAME:${{ steps.date.outputs.date }}
