@@ -1,95 +1,63 @@
 name: CI-CD Pipeline Dunhumby-The-Complete-Journey-Dashboard
 
-
 env:
-  DOCKER_USER: ${{secrets.DOCKER_USER}}
-  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-  REPO_NAME: ${{secrets.REPO_NAME}}
-  GIT_REPO_NAME: ${{secrets.GIT_REPO_NAME}}
-  GIT_USER: ${{secrets.GIT_USER}}
-  GIT_TOKEN: ${{secrets.GIT_TOKEN}}
-
-# Event Triggers:
-# The pipeline is triggered whenever there is a push to the main branch.
-# It is also triggered whenever there is a pull request to the main branch.
+  DOCKER_USER: ${{ secrets.DOCKER_USER }}
+  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+  REPO_NAME: ${{ secrets.REPO_NAME }}
+  GIT_REPO_NAME: ${{ secrets.GIT_REPO_NAME }}
+  GIT_USER: ${{ secrets.GIT_USER }}
+  GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
 on:
   push:
     branches:
-    - main
+      - main
   pull_request:
     branches:
-    - main
-
-# this pipeline consists of a two jobs named ci_pipeline
+      - main
 
 jobs:
-
-
   ci_pipeline: 
-       runs-on: ubuntu-latest     # The job runs on the ubuntu-latest operating system
-       
-       steps:
-        - uses: actions/checkout@v1 
-          with:
-            fetch-depth: 0
-#The first step uses the actions/checkout@v1 action to clone the repository.
-#The fetch-depth: 0 parameter ensures that the complete commit history is fetched.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 0
 
-        - name: Set up Python 3.11
-          uses: actions/setup-python@v1
-          with:
-            python-version: 3.11
-#The second step sets up Python 3.11 by using the actions/setup-python@v1 action.
-#The python-version: 3.11 parameter specifies the desired Python version.
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.11
 
-        - name: Install dependencies
-          run: |
-            python -m pip install --upgrade pip
-            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-# The third step installs the project dependencies.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-        - name: Format
-          run: |
-            black .
-# The fourth step formats the python files using the black code formatter.
-
-        # - name: Lint
-        #   run: |
-        #     pylint --disable=R,C  .
-#The fifth step performs linting on the python files using pylint.
-#The --disable=R,C flag disables specific pylint checks.
-
-#        - name: Test
-#          run: |
-#            python -m pytest -vv test.py
-
+      - name: Format
+        run: black .
 
   cd_pipeline:
-
-      runs-on: ubuntu-latest 
-      needs: [ci_pipeline]
- 
-      steps:
-
-      - uses: actions/checkout@v2 
-      - name: docker login
-        run: | # log into docker hub account
-          docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+    runs-on: ubuntu-latest
+    needs: [ci_pipeline]
+    steps:
+      - uses: actions/checkout@v2
       
-      - name: Get current date # get the date of the build
+      - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d--%M-%S')"
+        run: echo "DATE=$(date +'%Y-%m-%d--%H-%M-%S')" >> $GITHUB_ENV
 
-      - name: Build the Docker image # push The image to the docker hub
-        run: docker build . --file Dockerfile --tag $DOCKER_USER/$REPO_NAME:${{ steps.date.outputs.date }}
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag ghcr.io/$GIT_USER/$GIT_REPO_NAME:${{ env.DATE }} --tag $DOCKER_USER/$REPO_NAME:${{ env.DATE }}
 
-      - name: Docker Push
-        run: docker push $DOCKER_USER/$REPO_NAME:${{ steps.date.outputs.date }}
-      
-      - name: github container registry login
-        run: | # log into github container registry
-          docker login ghcr.io -u $GIT_USER -p $GIT_TOKEN
+      - name: Docker Hub login
+        run: echo $DOCKER_PASSWORD | docker login -u $DOCKER_USER --password-stdin
 
-      - name: Github Container Registry
-        run: docker push ghcr.io/$GIT_USER/$GIT_REPO_NAME:${{ steps.date.outputs.date }}
+      - name: Push Docker image to Docker Hub
+        run: docker push $DOCKER_USER/$REPO_NAME:${{ env.DATE }}
+
+      - name: GitHub Container Registry login
+        run: echo $GIT_TOKEN | docker login ghcr.io -u $GIT_USER --password-stdin
+
+      - name: Push Docker image to GitHub Container Registry
+        run: docker push ghcr.io/$GIT_USER/$GIT_REPO_NAME:${{ env.DATE }}
