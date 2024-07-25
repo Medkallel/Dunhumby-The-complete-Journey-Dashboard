@@ -8,6 +8,7 @@
     -   [App Overview](#app-overview)
     -   [App Screenshots](#app-screenshots)
 -   [Demo](#demo)
+-   [Using Docker](#using-docker)
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Project Structure](#project-structure)
@@ -59,6 +60,31 @@
 ## Demo
 ##### The app demo is hosted & available on the following link: [Demo Link](https://dunhumby-the-complete-journey-dashboard.streamlit.app/)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dunhumby-the-complete-journey-dashboard.streamlit.app/)
+
+
+---
+## Using Docker
+#### 1. Pulling the Docker Image
+To pull the Docker image from Docker Hub, run the following command:
+```sh
+# Pull the docker image
+$ docker pull your-dockerhub-username/dunhumby-dashboard:latest
+```
+#### 2. Building the Docker Image
+If you prefer to build the Docker image locally, navigate to the project directory and run:
+
+```sh
+# Build the docker image
+$ docker build -t dunhumby-dashboard .
+```
+#### 3. Running the Docker Container
+To run the Docker container, use the following command:
+```sh
+# Run the docker container
+$ docker run -p 8501:8501 dunhumby-dashboard
+```
+> [!TIP] 
+> You can access the app on another device by following the link: ```http://<server-ip>:8501```
 ---
 ## Installation
 
@@ -70,37 +96,38 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 ```sh
 # Clone the repository
-git clone https://github.com/Medkallel/Dunhumby-The-complete-Journey-Dashboard
+$ git clone https://github.com/Medkallel/Dunhumby-The-complete-Journey-Dashboard
 # Navigate into the directory
-cd Dunhumby-The-complete-Journey-Dashboard
+$ cd Dunhumby-The-complete-Journey-Dashboard
 ```
 2. Install the required dependencies:
-```
+```sh
 # Install the requirements
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ---
 ## Usage 
-```
+```sh
 # Run the Streamlit app
-streamlit run Src/Streamlit/1_👋_Dataset_Presentation.py
+$ streamlit run Src/Streamlit/1_👋_Dataset_Presentation.py
 ```
 > [!TIP] 
 > You can access the app on another device by following the link: ```http://<server-ip>:8501```
-
 ---
 ## Project Structure
-```
+```sh
 Here's a visual representation of the structure:
 📦Project
+ ┣ 📁.github/workflows
+ ┃ ┗ 🦑github-docker-cicd.yaml # Used for the CI/CD pipeline
  ┣ 📁.streamlit/
  ┃ ┗ 📄config.toml
  ┣ 📁Assets/
  ┃ ┣ 🖼️ banner.jpg
  ┃ ┗ 🖼️ WordCloudMask.png
- ┣ 📁Data/
- ┣ 📁Export/
+ ┣ 📁Data/ # Contains the dataset
+ ┣ 📁Export/ # Contains the processed dataset
  ┣ 📁Doc/
  ┃ ┣ 📄dataset_description.json
  ┃ ┗ 📄dunnhumby - The Complete Journey User Guide.pdf
@@ -115,6 +142,7 @@ Here's a visual representation of the structure:
  ┃    ┣ 🐍3_🏠_Demographic Data.py
  ┃    ┣ 🐍4_📦_Product_Data.py
  ┃    ┗ 🐍5_🧮_Sales_Data.py
+ ┣ 🐳Dockerfile
  ┣ 📄README.md
  ┗ 📄requirements.txt
 ```
