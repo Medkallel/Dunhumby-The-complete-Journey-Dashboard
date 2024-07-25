@@ -12,6 +12,8 @@ COPY Export /app/Export/
 COPY .streamlit /app/.streamlit/
 COPY Doc /app/Doc/
 
+LABEL org.opencontainers.image.source https://github.com/Medkallel/Dunhumby-The-complete-Journey-Dashboard
+
 # Install packages from requirements.txt
 
 RUN pip install --no-cache-dir --upgrade pip &&\
