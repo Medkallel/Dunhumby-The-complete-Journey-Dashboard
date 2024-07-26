@@ -119,7 +119,7 @@ $ streamlit run Src/Streamlit/1_👋_Dataset_Presentation.py
 > You can access the app on another device by following the link: ```http://<server-ip>:8501```
 ---
 ## Project Structure
-```sh
+```
 Here's a visual representation of the structure:
 📦Project
  ┣ 📁.github/workflows
