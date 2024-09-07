@@ -69,9 +69,6 @@ To pull the Docker image from Docker Hub, run the following command:
 ```sh
 # Pull the docker image
 $ docker pull medkallel/dunhumby-the-complete-journey-dashboard:latest
-
-# Or if you downloaded the .tar image
-$ docker load -i dunhumby-the-complete-journey-dashboard.tar
 ```
 #### 2. Building the Docker Image
 If you prefer to build the Docker image locally, navigate to the project directory and run:
